@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LanguageValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+IF( AND( TEXT(Language__c) = "EN", 
+OR( ISBLANK(En_lang__c), NOT(ISBLANK(ZH_lang__c)))
+), True, False ),
+IF( AND( TEXT(Language__c) = "ZH", 
+OR( ISBLANK(ZH_lang__c), NOT(ISBLANK(En_lang__c)))
+), True, False ),
+IF( 
+AND( 
+TEXT(Language__c) = "Bilingual", 
+OR (
+ISBLANK(En_lang__c),ISBLANK(ZH_lang__c)
+
+)
+), True, False )
+
+
+)</errorConditionFormula>
+    <errorMessage>Please enter the Issue Name(s) based on the selected language.</errorMessage>
+</ValidationRule>

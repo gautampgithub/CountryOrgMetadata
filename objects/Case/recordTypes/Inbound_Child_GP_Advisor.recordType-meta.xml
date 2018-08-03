@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inbound_Child_GP_Advisor</fullName>
+    <active>true</active>
+    <businessProcess>Gold Standard Support Process</businessProcess>
+    <compactLayoutAssignment>Inbound_Compact_Layout</compactLayoutAssignment>
+    <label>Inbound Child GP Advisor</label>
+    <picklistValues>
+        <picklist>Call_Back_Time_Slot__c</picklist>
+        <values>
+            <fullName>00%3A00 - 01%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>01%3A00 - 02%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02%3A00 - 03%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>03%3A00 - 04%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>04%3A00 - 05%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>05%3A00 - 06%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06%3A00 - 07%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07%3A00 - 08%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08%3A00 - 09%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>09%3A00 - 10%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%3A00 - 11%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%3A00 - 12%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%3A00 - 13%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>13%3A00 - 14%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14%3A00 - 15%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%3A00 - 16%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16%3A00 - 17%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17%3A00 - 18%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18%3A00 - 19%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19%3A00 - 20%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20%3A00 - 21%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21%3A00 - 22%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>22%3A00 - 23%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>23%3A00 - 00%3A00</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deceased_Indicator__c</picklist>
+        <values>
+            <fullName>N</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Y</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Enquiry_type__c</picklist>
+        <values>
+            <fullName>AWS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CWS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charges %2F Interest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disbursement Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-quotation enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECA in</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECA out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Explanation on Details</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fax Option</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hold Case %2F Withdrawal Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IVR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intragroup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member %2F Scheme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memo Clarification %28DCC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outstanding Document</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P%28M%29 %2F P%28C%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PWS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Transfer In</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Transfer out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reissue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signature Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Form__c</picklist>
+        <values>
+            <fullName>Form1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form13</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form16</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form17</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form24</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form26</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form28</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form31</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form32</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form33</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form34</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form35</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form36</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form37</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form38</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form39</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form41</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form42</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form43</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form44</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form46</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form47</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form48</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form49</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HNW_Signal__c</picklist>
+        <values>
+            <fullName>N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Y</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LOB__c</picklist>
+        <values>
+            <fullName>GLH</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Offering_Type__c</picklist>
+        <values>
+            <fullName>ADB Cert%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Available value Call Center</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>EB ASC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EB CSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EB admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IND ASC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IND CSC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Overdue_Reason__c</picklist>
+        <values>
+            <fullName>Other Specify in Remarks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outstanding Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outstanding Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for Agent%27s Reply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for Attended Physician Statement %28APS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for Client%27s Reply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for Copy or Original of Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for Doctor%27s Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for System Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for the Specific Day Processing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Specify in Remarks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outstanding Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outstanding Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for Agent%27s Reply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for Attended Physician Statement %28APS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for Client%27s Reply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for Copy or Original of Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for Doctor%27s Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for System Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait for the Specific Day Processing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Type__c</picklist>
+        <values>
+            <fullName>Accumulator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advisor Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advisor Document collection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advisor Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appeal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assignment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Benefit Schedule Explanation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billing %28 Debit Note%2F Change Summary%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CDD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CQ%2FDoc Submission %28without enquiry%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Card Reissue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Card issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheque Collection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debit Note</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document collection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freebie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>From Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>How to Use%2F Navigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>How to fill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Letter of Guarantee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Login Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NB Drop Box Follow up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PC %2F Commission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panel - Benefit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panel - Dr List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre- Screen Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reject Reason</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request for Brochure %2F Leaflet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resend Benefit Schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reset PIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Return Receipt Status%2F Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Return to Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminar Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shortfall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submission over Counter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical Schedule Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underwriting Related</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Agent Change Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agent%27s Commission %2F PC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alpha Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auth Sign Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autopay Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint %28PFund%2FORSO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contribution %28MPFADOC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contribution %28wrong PP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contribution Confirmation Letter %28EE%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contribution Confirmation Letter %28ER%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Linkage - GP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EE Enrolment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EE Fund Switch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EE Particular Change %28AWD-CIM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EE Particular Changes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EE Termination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER Assets Data %28Broker%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER Particular Changes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER Return Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER Termination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER Transfer IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER Transfer OUT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect Contribution Data Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect Member Chinese Name</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intra-group Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LD case related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPF Rebank in %2F Hold Chq</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mailing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member Address Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ORSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outstanding CA Follow Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payadol Disk Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payadol Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal a%2Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Re-issue Cheque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reissue DRN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surcharge %28Write Off%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surcharge Appeal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tag Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team 5 - Auth Sign Change %28PF%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer P%28M%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer P%28P%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Withdrawal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

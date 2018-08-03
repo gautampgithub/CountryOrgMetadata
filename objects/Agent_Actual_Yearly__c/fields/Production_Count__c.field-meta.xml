@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Production_Count__c</fullName>
+    <externalId>false</externalId>
+    <label>Production Count</label>
+    <summarizedField>Agent_Actual_Monthly__c.Production_Count__c</summarizedField>
+    <summaryForeignKey>Agent_Actual_Monthly__c.Agent_Actual_Yearly__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Customer_Age__c</columns>
+    <columns>Customer_Country_Code__c</columns>
+    <columns>Customer_Coverage_Amount__c</columns>
+    <columns>Customer_Email__c</columns>
+    <columns>Customer_Name__c</columns>
+    <columns>Customer_Payment_Mode__c</columns>
+    <columns>Customer_Phone__c</columns>
+    <columns>Customer_Premium__c</columns>
+    <columns>Customer_Sex__c</columns>
+    <columns>Existing_Manulife_Customer__c</columns>
+    <columns>Smoker__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

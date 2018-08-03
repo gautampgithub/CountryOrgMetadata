@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Page_Template__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>It is the field to define the theme of page.</description>
+    <externalId>false</externalId>
+    <label>Page Template</label>
+    <referenceTo>Function_Template__c</referenceTo>
+    <relationshipLabel>Functions</relationshipLabel>
+    <relationshipName>Functions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

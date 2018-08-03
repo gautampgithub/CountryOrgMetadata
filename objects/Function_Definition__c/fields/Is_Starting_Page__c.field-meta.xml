@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Starting_Page__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>it is the default starting page among all functions</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If it is default starting page, please check otherwise keep unchecked.</inlineHelpText>
+    <label>Is Starting Page</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

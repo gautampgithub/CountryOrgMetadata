@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IFP_Surrender_Not_Taken_Maturity</fullName>
+    <description>IFP_Surrender / Not Taken / Maturity</description>
+    <displayedFields>
+        <field>Description</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>IFP_Surrender / Not Taken / Maturity</label>
+</FieldSet>

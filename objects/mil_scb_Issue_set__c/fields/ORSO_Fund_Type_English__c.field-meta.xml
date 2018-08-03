@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ORSO_Fund_Type_English__c</fullName>
+    <externalId>false</externalId>
+    <label>ORSO Fund Type English</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>500 Allianz Choice Growth Fund</fullName>
+                <default>false</default>
+                <label>500 Allianz Choice Growth Fund</label>
+            </value>
+            <value>
+                <fullName>510 Baring International Bond Fund</fullName>
+                <default>false</default>
+                <label>510 Baring International Bond Fund</label>
+            </value>
+            <value>
+                <fullName>516 Schroder International Selection Fund - Global Bond</fullName>
+                <default>false</default>
+                <label>516 Schroder International Selection Fund - Global Bond</label>
+            </value>
+            <value>
+                <fullName>520 Schroder HK Money Market Fund</fullName>
+                <default>false</default>
+                <label>520 Schroder HK Money Market Fund</label>
+            </value>
+            <value>
+                <fullName>525 Schroder US Dollar Money Fund</fullName>
+                <default>false</default>
+                <label>525 Schroder US Dollar Money Fund</label>
+            </value>
+            <value>
+                <fullName>530 Allianz Little Dragons</fullName>
+                <default>false</default>
+                <label>530 Allianz Little Dragons</label>
+            </value>
+            <value>
+                <fullName>536 Schroder International Selection Fund - Asian Opportunities</fullName>
+                <default>false</default>
+                <label>536 Schroder International Selection Fund - Asian Opportunities</label>
+            </value>
+            <value>
+                <fullName>540 HSBC Managed Growth Fund</fullName>
+                <default>false</default>
+                <label>540 HSBC Managed Growth Fund</label>
+            </value>
+            <value>
+                <fullName>545 Schroder Balanced Investment Fund</fullName>
+                <default>false</default>
+                <label>545 Schroder Balanced Investment Fund</label>
+            </value>
+            <value>
+                <fullName>550 Allianz Choice Balanced Fund</fullName>
+                <default>false</default>
+                <label>550 Allianz Choice Balanced Fund</label>
+            </value>
+            <value>
+                <fullName>555 Baring Asia Balanced Fund</fullName>
+                <default>false</default>
+                <label>555 Baring Asia Balanced Fund</label>
+            </value>
+            <value>
+                <fullName>560 Templeton Global Balanced Fund</fullName>
+                <default>false</default>
+                <label>560 Templeton Global Balanced Fund</label>
+            </value>
+            <value>
+                <fullName>565 Schroder Stable Growth Fund</fullName>
+                <default>false</default>
+                <label>565 Schroder Stable Growth Fund</label>
+            </value>
+            <value>
+                <fullName>570 HSBC Hong Kong Equity Fund</fullName>
+                <default>false</default>
+                <label>570 HSBC Hong Kong Equity Fund</label>
+            </value>
+            <value>
+                <fullName>575 Morgan Stanley Investment Funds US Growth Fund</fullName>
+                <default>false</default>
+                <label>575 Morgan Stanley Investment Funds US Growth Fund</label>
+            </value>
+            <value>
+                <fullName>580 BlackRock Global Funds - European Fund</fullName>
+                <default>false</default>
+                <label>580 BlackRock Global Funds - European Fund</label>
+            </value>
+            <value>
+                <fullName>585 Allianz Japan Equity</fullName>
+                <default>false</default>
+                <label>585 Allianz Japan Equity</label>
+            </value>
+            <value>
+                <fullName>591 Manulife Stable Fund</fullName>
+                <default>false</default>
+                <label>591 Manulife Stable Fund</label>
+            </value>
+            <value>
+                <fullName>592 Manulife Balanced Fund</fullName>
+                <default>false</default>
+                <label>592 Manulife Balanced Fund</label>
+            </value>
+            <value>
+                <fullName>593 Manulife Growth Fund</fullName>
+                <default>false</default>
+                <label>593 Manulife Growth Fund</label>
+            </value>
+            <value>
+                <fullName>596 JPMorgan SAR Global Bond Fund</fullName>
+                <default>false</default>
+                <label>596 JPMorgan SAR Global Bond Fund</label>
+            </value>
+            <value>
+                <fullName>597 Fidelity Funds - International Bond Fund</fullName>
+                <default>false</default>
+                <label>597 Fidelity Funds - International Bond Fund</label>
+            </value>
+            <value>
+                <fullName>598 Schroder International Selection Fund - Hong Kong Dollar Bond</fullName>
+                <default>false</default>
+                <label>598 Schroder International Selection Fund - Hong Kong Dollar Bond</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

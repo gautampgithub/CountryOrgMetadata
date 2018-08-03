@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mil_Move_account_name__c</fullName>
+    <description>Account name for community</description>
+    <encrypted>false</encrypted>
+    <externalId>false</externalId>
+    <inlineHelpText>Account name for community</inlineHelpText>
+    <label>Mil_Move_account_name</label>
+    <length>50</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

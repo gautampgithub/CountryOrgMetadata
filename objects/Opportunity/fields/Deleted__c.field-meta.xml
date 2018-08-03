@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deleted__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>WAMCRM : 
+
+For the System Audit perspective. User is not allowed to delete any record.
+
+User can either check &#39;Deleted&#39; checkbox to mark record deletion or request System Admin to help the record deletion</description>
+    <externalId>false</externalId>
+    <label>Deleted</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

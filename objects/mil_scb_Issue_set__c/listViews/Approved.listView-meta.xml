@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approved</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Language__c</columns>
+    <columns>En_lang__c</columns>
+    <columns>ZH_lang__c</columns>
+    <columns>Type__c</columns>
+    <columns>SubType__c</columns>
+    <columns>Issue_Month__c</columns>
+    <columns>Issue_Year__c</columns>
+    <columns>MPF_Fund_Type_Chinese__c</columns>
+    <columns>MPF_Fund_Type_English__c</columns>
+    <columns>ORSO_Fund_Type_Chinese__c</columns>
+    <columns>ORSO_Fund_Type_English__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Approved</value>
+    </filters>
+    <filters>
+        <field>Language__c</field>
+        <operation>equals</operation>
+        <value>ZH</value>
+    </filters>
+    <filters>
+        <field>Language__c</field>
+        <operation>equals</operation>
+        <value>Bilingual</value>
+    </filters>
+    <label>Approved</label>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mil_Move_Rule_Client_Based_Interval__c</fullName>
+    <description>The time interval in minutes to trigger data sensitive rule for data sync. If the interval between LastDataSensitiveRuleTriggerDate and current time is smaller than this setting, rule engine will not be trigger.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The time interval in minutes to trigger data sensitive rule for data sync. If the interval between LastDataSensitiveRuleTriggerDate and current time is smaller than this setting, rule engine will not be trigger.</inlineHelpText>
+    <label>Mil_Move_Rule_Client_Based_Interval</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

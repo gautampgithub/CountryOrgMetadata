@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Neighbour_Issueset_mil_scb_Issue_set</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Neighbour Issue Set Queue</label>
+    <queue>Neighbour_Issueset</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

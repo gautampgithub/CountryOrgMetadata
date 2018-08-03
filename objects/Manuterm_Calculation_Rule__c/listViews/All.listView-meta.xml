@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>manuterm_type__c</columns>
+    <columns>sex__c</columns>
+    <columns>age__c</columns>
+    <columns>smoke_flag__c</columns>
+    <columns>annual_hk_band_1_min_premium__c</columns>
+    <columns>annual_hk_band_1_premium_rate__c</columns>
+    <columns>annual_hk_band_2_min_premium__c</columns>
+    <columns>annual_hk_band_2_premium_rate__c</columns>
+    <columns>annual_hk_band_3_min_premium__c</columns>
+    <columns>annual_hk_band_3_premium_rate__c</columns>
+    <columns>annual_hk_band_4_min_premium__c</columns>
+    <columns>annual_hk_band_4_premium_rate__c</columns>
+    <columns>CURRENCY_ISO_CODE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

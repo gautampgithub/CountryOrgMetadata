@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Daily_Commentary__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>WAMCRM :L Opt out field for &#39;Daily Commentary&#39;</description>
+    <externalId>false</externalId>
+    <label>Daily Commentary</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

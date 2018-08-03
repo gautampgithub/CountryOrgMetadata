@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Data_Loss_Device_Sync_Date__c</fullName>
+    <description>This field is to store the Misfit Device Sync Date on the occasion of a Data Loss. 
+In the consequent syncs - 1) if the Data Loss is found to still exist, the value from this field is moved to the User Last_Sync_Date__c field and this value is made null. 2) If there is NO Data Loss, then this value is made null and the Misfit Device Sync Date is moved to the User Last_Sync_Date__c field.</description>
+    <encrypted>false</encrypted>
+    <externalId>false</externalId>
+    <label>Last Data Loss Device Sync Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>DateTime</type>
+</CustomField>

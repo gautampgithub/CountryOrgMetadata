@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enquiry_type__c</fullName>
+    <externalId>false</externalId>
+    <label>Enquiry type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PWS</fullName>
+                <default>false</default>
+                <label>PWS</label>
+            </value>
+            <value>
+                <fullName>CWS</fullName>
+                <default>false</default>
+                <label>CWS</label>
+            </value>
+            <value>
+                <fullName>AWS</fullName>
+                <default>false</default>
+                <label>AWS</label>
+            </value>
+            <value>
+                <fullName>IVR</fullName>
+                <default>false</default>
+                <label>IVR</label>
+            </value>
+            <value>
+                <fullName>Plan Transfer In</fullName>
+                <default>false</default>
+                <label>Plan Transfer In</label>
+            </value>
+            <value>
+                <fullName>Intragroup</fullName>
+                <default>false</default>
+                <label>Intragroup</label>
+            </value>
+            <value>
+                <fullName>Plan Transfer out</fullName>
+                <default>false</default>
+                <label>Plan Transfer out</label>
+            </value>
+            <value>
+                <fullName>ECA in</fullName>
+                <default>false</default>
+                <label>ECA in</label>
+            </value>
+            <value>
+                <fullName>ECA out</fullName>
+                <default>false</default>
+                <label>ECA out</label>
+            </value>
+            <value>
+                <fullName>P(M) / P(C)</fullName>
+                <default>false</default>
+                <label>P(M) / P(C)</label>
+            </value>
+            <value>
+                <fullName>MMB</fullName>
+                <default>false</default>
+                <label>MMB</label>
+            </value>
+            <value>
+                <fullName>ER</fullName>
+                <default>false</default>
+                <label>ER</label>
+            </value>
+            <value>
+                <fullName>FRC</fullName>
+                <default>false</default>
+                <label>FRC</label>
+            </value>
+            <value>
+                <fullName>SEP</fullName>
+                <default>false</default>
+                <label>SEP</label>
+            </value>
+            <value>
+                <fullName>PA</fullName>
+                <default>false</default>
+                <label>PA</label>
+            </value>
+            <value>
+                <fullName>Member / Scheme</fullName>
+                <default>false</default>
+                <label>Member / Scheme</label>
+            </value>
+            <value>
+                <fullName>Request</fullName>
+                <default>false</default>
+                <label>Request</label>
+            </value>
+            <value>
+                <fullName>Reissue</fullName>
+                <default>false</default>
+                <label>Reissue</label>
+            </value>
+            <value>
+                <fullName>Explanation on Details</fullName>
+                <default>false</default>
+                <label>Explanation on Details</label>
+            </value>
+            <value>
+                <fullName>Procedure</fullName>
+                <default>false</default>
+                <label>Procedure</label>
+            </value>
+            <value>
+                <fullName>Outstanding Document</fullName>
+                <default>false</default>
+                <label>Outstanding Document</label>
+            </value>
+            <value>
+                <fullName>Memo Clarification (DCC)</fullName>
+                <default>false</default>
+                <label>Memo Clarification (DCC)</label>
+            </value>
+            <value>
+                <fullName>Hold Case / Withdrawal Request</fullName>
+                <default>false</default>
+                <label>Hold Case / Withdrawal Request</label>
+            </value>
+            <value>
+                <fullName>Special Approval</fullName>
+                <default>false</default>
+                <label>Special Approval</label>
+            </value>
+            <value>
+                <fullName>E-quotation enquiry</fullName>
+                <default>false</default>
+                <label>E-quotation enquiry</label>
+            </value>
+            <value>
+                <fullName>Disbursement Related</fullName>
+                <default>false</default>
+                <label>Disbursement Related</label>
+            </value>
+            <value>
+                <fullName>Charges / Interest</fullName>
+                <default>false</default>
+                <label>Charges / Interest</label>
+            </value>
+            <value>
+                <fullName>Fax Option</fullName>
+                <default>false</default>
+                <label>Fax Option</label>
+            </value>
+            <value>
+                <fullName>Signature Related</fullName>
+                <default>false</default>
+                <label>Signature Related</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>New Business</controllingFieldValue>
+            <controllingFieldValue>ASC - NB Submission</controllingFieldValue>
+            <valueName>ER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Business</controllingFieldValue>
+            <controllingFieldValue>ASC - NB Submission</controllingFieldValue>
+            <valueName>FRC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Business</controllingFieldValue>
+            <controllingFieldValue>ASC - NB Submission</controllingFieldValue>
+            <valueName>SEP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Outstanding Document</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Memo Clarification (DCC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Hold Case / Withdrawal Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Special Approval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <valueName>Charges / Interest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <valueName>Disbursement Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin Change</controllingFieldValue>
+            <valueName>Fax Option</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin Change</controllingFieldValue>
+            <valueName>Signature Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Reissue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Explanation on Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>E-quotation enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>PWS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>CWS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>AWS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>IVR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panel Service</controllingFieldValue>
+            <valueName>Member / Scheme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scheme Transfer</controllingFieldValue>
+            <valueName>Plan Transfer In</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scheme Transfer</controllingFieldValue>
+            <valueName>Intragroup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scheme Transfer</controllingFieldValue>
+            <valueName>Plan Transfer out</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Member Transfer</controllingFieldValue>
+            <valueName>ECA in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Member Transfer</controllingFieldValue>
+            <valueName>ECA out</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Member Transfer</controllingFieldValue>
+            <valueName>P(M) / P(C)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Member Transfer</controllingFieldValue>
+            <valueName>MMB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASC - NB Submission</controllingFieldValue>
+            <valueName>PA</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

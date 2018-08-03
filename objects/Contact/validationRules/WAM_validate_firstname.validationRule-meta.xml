@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAM_validate_firstname</fullName>
+    <active>true</active>
+    <description>WAM requires first name to be mandatory.</description>
+    <errorConditionFormula>IF( RecordType.Name = $Setup.WAM_CustomSetting__c.Contact_Distributor_Record_Type_Label__c, 
+ IF( ISBLANK( FirstName ) , TRUE, FALSE) 
+, 
+
+FALSE)</errorConditionFormula>
+    <errorDisplayField>FirstName</errorDisplayField>
+    <errorMessage>Please enter first name.</errorMessage>
+</ValidationRule>

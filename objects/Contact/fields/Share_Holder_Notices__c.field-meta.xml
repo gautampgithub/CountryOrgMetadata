@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Share_Holder_Notices__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>WAMCRM : Share Holder Notices</description>
+    <externalId>false</externalId>
+    <inlineHelpText>WAMCRM : Share Holder Notices</inlineHelpText>
+    <label>Shareholder Notices</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chinese_Fund_Type__c</fullName>
+    <description>To calculate Chinese Fund Type Value when Type is MPF or ORSO AND Subtype is Fund Fact Sheets AND Language is ZH or Bilingual</description>
+    <externalId>false</externalId>
+    <formula>IF(
+  AND( 
+       TEXT( SubType__c ) = "Fund Fact Sheets", 
+       TEXT(  Type__c  ) = "MPF", 
+       OR(TEXT(  Language__c ) = "ZH", TEXT(  Language__c ) = "Bilingual" )
+     ),
+  TEXT (  MPF_Fund_Type_Chinese__c  ), 
+  IF(
+  AND( 
+       TEXT( SubType__c ) = "Fund Fact Sheets", 
+       TEXT(  Type__c  ) = "ORSO", 
+       OR(TEXT(  Language__c ) = "ZH", TEXT(  Language__c ) = "Bilingual" )
+     ),
+     TEXT (   ORSO_Fund_Type_Chinese__c   ), 
+     "N/A"
+  )
+)</formula>
+    <label>Chinese Fund Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prev_Advisor_Term_Date__c</fullName>
+    <description>To Display the fetch term date from Account Relationship role. Sprint 5 PSI-27 |CTP-41</description>
+    <encrypted>false</encrypted>
+    <externalId>false</externalId>
+    <label>Prev. Advisor Term. Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

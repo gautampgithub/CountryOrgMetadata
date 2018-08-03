@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fitbit_Errors</fullName>
+    <columns>LAST_UPDATE</columns>
+    <columns>NAME</columns>
+    <columns>user_id__c</columns>
+    <columns>oAuth_2_user_id__c</columns>
+    <columns>login_user_name__c</columns>
+    <columns>oauth_token__c</columns>
+    <columns>oauth_token_secret__c</columns>
+    <columns>oAuth_2_access_token__c</columns>
+    <columns>oAuth_2_refresh_token__c</columns>
+    <columns>token_type__c</columns>
+    <columns>credential_type__c</columns>
+    <columns>Is_Oauth_1_User__c</columns>
+    <columns>oAuth2_Migrated__c</columns>
+    <columns>Remarks__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Is_Oauth_1_User__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>oAuth2_Migrated__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>credential_type__c</field>
+        <operation>equals</operation>
+        <value>Fitbit</value>
+    </filters>
+    <label>Fitbit Errors</label>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

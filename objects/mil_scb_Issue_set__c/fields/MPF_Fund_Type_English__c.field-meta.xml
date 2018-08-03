@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MPF_Fund_Type_English__c</fullName>
+    <externalId>false</externalId>
+    <label>MPF Fund Type English</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>-------------- Basic Plan --------------</fullName>
+                <default>false</default>
+                <label>-------------- Basic Plan --------------</label>
+            </value>
+            <value>
+                <fullName>Consolidated Fund Fact Sheet for Manulife MPF - Basic</fullName>
+                <default>false</default>
+                <label>Consolidated Fund Fact Sheet for Manulife MPF - Basic</label>
+            </value>
+            <value>
+                <fullName>100 Manulife Career Average Guaranteed Fund - Basic</fullName>
+                <default>false</default>
+                <label>100 Manulife Career Average Guaranteed Fund - Basic</label>
+            </value>
+            <value>
+                <fullName>101 Manulife Bond Fund - Basic</fullName>
+                <default>false</default>
+                <label>101 Manulife Bond Fund - Basic</label>
+            </value>
+            <value>
+                <fullName>105 Manulife MPF Conservative  Fund - Basic</fullName>
+                <default>false</default>
+                <label>105 Manulife MPF Conservative  Fund - Basic</label>
+            </value>
+            <value>
+                <fullName>110 Manulife Growth Fund - Basic</fullName>
+                <default>false</default>
+                <label>110 Manulife Growth Fund - Basic</label>
+            </value>
+            <value>
+                <fullName>115 Manulife Balanced Fund - Basic</fullName>
+                <default>false</default>
+                <label>115 Manulife Balanced Fund - Basic</label>
+            </value>
+            <value>
+                <fullName>120 Manulife Stable Fund - Basic</fullName>
+                <default>false</default>
+                <label>120 Manulife Stable Fund - Basic</label>
+            </value>
+            <value>
+                <fullName>Manulife MPF Core Accumulation Funds - Basic</fullName>
+                <default>false</default>
+                <label>Manulife MPF Core Accumulation Funds - Basic</label>
+            </value>
+            <value>
+                <fullName>Manulife MPF Age 65 Plus Funds - Basic</fullName>
+                <default>false</default>
+                <label>Manulife MPF Age 65 Plus Funds - Basic</label>
+            </value>
+            <value>
+                <fullName>----------- Advanced Plan -----------</fullName>
+                <default>false</default>
+                <label>----------- Advanced Plan -----------</label>
+            </value>
+            <value>
+                <fullName>Consolidated Fund Fact Sheet for Manulife MPF - Advanced</fullName>
+                <default>false</default>
+                <label>Consolidated Fund Fact Sheet for Manulife MPF - Advanced</label>
+            </value>
+            <value>
+                <fullName>125 Manulife Career Average Guaranteed Fund - Advanced</fullName>
+                <default>false</default>
+                <label>125 Manulife Career Average Guaranteed Fund - Advanced</label>
+            </value>
+            <value>
+                <fullName>126 Manulife Stable Fund - Advanced</fullName>
+                <default>false</default>
+                <label>126 Manulife Stable Fund - Advanced</label>
+            </value>
+            <value>
+                <fullName>127 Manulife Balanced Fund - Advanced</fullName>
+                <default>false</default>
+                <label>127 Manulife Balanced Fund - Advanced</label>
+            </value>
+            <value>
+                <fullName>128 Manulife Growth Fund - Advanced</fullName>
+                <default>false</default>
+                <label>128 Manulife Growth Fund - Advanced</label>
+            </value>
+            <value>
+                <fullName>129 Manulife Bond Fund - Advanced</fullName>
+                <default>false</default>
+                <label>129 Manulife Bond Fund - Advanced</label>
+            </value>
+            <value>
+                <fullName>130 Manulife MPF Conservative Fund - Advanced</fullName>
+                <default>false</default>
+                <label>130 Manulife MPF Conservative Fund - Advanced</label>
+            </value>
+            <value>
+                <fullName>135 Principal Hong Kong Equity Fund</fullName>
+                <default>false</default>
+                <label>135 Principal Hong Kong Equity Fund</label>
+            </value>
+            <value>
+                <fullName>140 Allianz Choice Growth Fund</fullName>
+                <default>false</default>
+                <label>140 Allianz Choice Growth Fund</label>
+            </value>
+            <value>
+                <fullName>145 Fidelity Global Investment Fund - Growth Fund</fullName>
+                <default>false</default>
+                <label>145 Fidelity Global Investment Fund - Growth Fund</label>
+            </value>
+            <value>
+                <fullName>150 HSBC MPF "A" - Hong Kong and Chinese Equity Fund</fullName>
+                <default>false</default>
+                <label>150 HSBC MPF "A" - Hong Kong and Chinese Equity Fund</label>
+            </value>
+            <value>
+                <fullName>155 Invesco Global Equities Fund</fullName>
+                <default>false</default>
+                <label>155 Invesco Global Equities Fund</label>
+            </value>
+            <value>
+                <fullName>165 Schroder MPF Asian Fund</fullName>
+                <default>false</default>
+                <label>165 Schroder MPF Asian Fund</label>
+            </value>
+            <value>
+                <fullName>170 Templeton MPF Asian Balanced Fund</fullName>
+                <default>false</default>
+                <label>170 Templeton MPF Asian Balanced Fund</label>
+            </value>
+            <value>
+                <fullName>180 Allianz Choice Balanced Fund</fullName>
+                <default>false</default>
+                <label>180 Allianz Choice Balanced Fund</label>
+            </value>
+            <value>
+                <fullName>185 Fidelity Global Investment Fund - Balanced Fund</fullName>
+                <default>false</default>
+                <label>185 Fidelity Global Investment Fund - Balanced Fund</label>
+            </value>
+            <value>
+                <fullName>190 HSBC MPF "A" - Balanced Fund</fullName>
+                <default>false</default>
+                <label>190 HSBC MPF "A" - Balanced Fund</label>
+            </value>
+            <value>
+                <fullName>195 Invesco Global Balanced Fund</fullName>
+                <default>false</default>
+                <label>195 Invesco Global Balanced Fund</label>
+            </value>
+            <value>
+                <fullName>210 Schroder MPF Balanced Investment Fund</fullName>
+                <default>false</default>
+                <label>210 Schroder MPF Balanced Investment Fund</label>
+            </value>
+            <value>
+                <fullName>215 Templeton MPF Global Equity Fund</fullName>
+                <default>false</default>
+                <label>215 Templeton MPF Global Equity Fund</label>
+            </value>
+            <value>
+                <fullName>225 Allianz Choice Capital Stable Fund</fullName>
+                <default>false</default>
+                <label>225 Allianz Choice Capital Stable Fund</label>
+            </value>
+            <value>
+                <fullName>230 Fidelity Global Investment Fund - Capital Stable Fund</fullName>
+                <default>false</default>
+                <label>230 Fidelity Global Investment Fund - Capital Stable Fund</label>
+            </value>
+            <value>
+                <fullName>235 HSBC MPF "A" - Stable Fund</fullName>
+                <default>false</default>
+                <label>235 HSBC MPF "A" - Stable Fund</label>
+            </value>
+            <value>
+                <fullName>250 Invesco MPF Bond Fund</fullName>
+                <default>false</default>
+                <label>250 Invesco MPF Bond Fund</label>
+            </value>
+            <value>
+                <fullName>260 Schroder RMB and HKD Fixed Income Fund</fullName>
+                <default>false</default>
+                <label>260 Schroder RMB and HKD Fixed Income Fund</label>
+            </value>
+            <value>
+                <fullName>265 Templeton MPF Global Bond Fund</fullName>
+                <default>false</default>
+                <label>265 Templeton MPF Global Bond Fund</label>
+            </value>
+            <value>
+                <fullName>Manulife MPF Core Accumulation Funds - Advanced</fullName>
+                <default>false</default>
+                <label>Manulife MPF Core Accumulation Funds - Advanced</label>
+            </value>
+            <value>
+                <fullName>Manulife MPF Age 65 Plus Funds - Advanced</fullName>
+                <default>false</default>
+                <label>Manulife MPF Age 65 Plus Funds - Advanced</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

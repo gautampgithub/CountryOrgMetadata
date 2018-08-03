@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MPF_Fund_Type_Chinese__c</fullName>
+    <externalId>false</externalId>
+    <label>MPF Fund Type Chinese</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>---------------- 基本計劃 ----------------</fullName>
+                <default>false</default>
+                <label>---------------- 基本計劃 ----------------</label>
+            </value>
+            <value>
+                <fullName>宏利強積金計劃 - 基本 基金便覽合併版</fullName>
+                <default>false</default>
+                <label>宏利強積金計劃 - 基本 基金便覽合併版</label>
+            </value>
+            <value>
+                <fullName>100 宏利在職平均回報保證基金 - 基本</fullName>
+                <default>false</default>
+                <label>100 宏利在職平均回報保證基金 - 基本</label>
+            </value>
+            <value>
+                <fullName>101 宏利債券基金 - 基本</fullName>
+                <default>false</default>
+                <label>101 宏利債券基金 - 基本</label>
+            </value>
+            <value>
+                <fullName>105 宏利強積金保守基金 - 基本</fullName>
+                <default>false</default>
+                <label>105 宏利強積金保守基金 - 基本</label>
+            </value>
+            <value>
+                <fullName>110 宏利增長基金 - 基本</fullName>
+                <default>false</default>
+                <label>110 宏利增長基金 - 基本</label>
+            </value>
+            <value>
+                <fullName>115 宏利平衡基金 - 基本</fullName>
+                <default>false</default>
+                <label>115 宏利平衡基金 - 基本</label>
+            </value>
+            <value>
+                <fullName>120 宏利穩定基金 - 基本</fullName>
+                <default>false</default>
+                <label>120 宏利穩定基金 - 基本</label>
+            </value>
+            <value>
+                <fullName>宏利強積金核心累積基金 - 基本</fullName>
+                <default>false</default>
+                <label>宏利強積金核心累積基金 - 基本</label>
+            </value>
+            <value>
+                <fullName>宏利強積金 65 歲後基金 - 基本</fullName>
+                <default>false</default>
+                <label>宏利強積金 65 歲後基金 - 基本</label>
+            </value>
+            <value>
+                <fullName>---------------- 全面計劃 ----------------</fullName>
+                <default>false</default>
+                <label>---------------- 全面計劃 ----------------</label>
+            </value>
+            <value>
+                <fullName>宏利強積金計劃 - 全面 基金便覽合併版</fullName>
+                <default>false</default>
+                <label>宏利強積金計劃 - 全面 基金便覽合併版</label>
+            </value>
+            <value>
+                <fullName>125 宏利在職平均回報保證基金 - 全面</fullName>
+                <default>false</default>
+                <label>125 宏利在職平均回報保證基金 - 全面</label>
+            </value>
+            <value>
+                <fullName>126 宏利穩定基金 - 全面</fullName>
+                <default>false</default>
+                <label>126 宏利穩定基金 - 全面</label>
+            </value>
+            <value>
+                <fullName>127 宏利平衡基金 - 全面</fullName>
+                <default>false</default>
+                <label>127 宏利平衡基金 - 全面</label>
+            </value>
+            <value>
+                <fullName>128 宏利增長基金 - 全面</fullName>
+                <default>false</default>
+                <label>128 宏利增長基金 - 全面</label>
+            </value>
+            <value>
+                <fullName>129 宏利債券基金 - 全面</fullName>
+                <default>false</default>
+                <label>129 宏利債券基金 - 全面</label>
+            </value>
+            <value>
+                <fullName>130 宏利強積金保守基金 - 全面</fullName>
+                <default>false</default>
+                <label>130 宏利強積金保守基金 - 全面</label>
+            </value>
+            <value>
+                <fullName>135 信安香港股票基金</fullName>
+                <default>false</default>
+                <label>135 信安香港股票基金</label>
+            </value>
+            <value>
+                <fullName>140 安聯精選增長基金</fullName>
+                <default>false</default>
+                <label>140 安聯精選增長基金</label>
+            </value>
+            <value>
+                <fullName>145 富達環球投資基金 - 增長基金</fullName>
+                <default>false</default>
+                <label>145 富達環球投資基金 - 增長基金</label>
+            </value>
+            <value>
+                <fullName>150 匯豐強積金"A"系列 - 中港股票基金</fullName>
+                <default>false</default>
+                <label>150 匯豐強積金"A"系列 - 中港股票基金</label>
+            </value>
+            <value>
+                <fullName>155 景順環球股票基金</fullName>
+                <default>false</default>
+                <label>155 景順環球股票基金</label>
+            </value>
+            <value>
+                <fullName>165 施羅德強積金亞洲基金</fullName>
+                <default>false</default>
+                <label>165 施羅德強積金亞洲基金</label>
+            </value>
+            <value>
+                <fullName>170 鄧普頓強積金亞洲均衡基金</fullName>
+                <default>false</default>
+                <label>170 鄧普頓強積金亞洲均衡基金</label>
+            </value>
+            <value>
+                <fullName>180 安聯精選均衡基金</fullName>
+                <default>false</default>
+                <label>180 安聯精選均衡基金</label>
+            </value>
+            <value>
+                <fullName>185 富達環球投資基金 - 均衡基金</fullName>
+                <default>false</default>
+                <label>185 富達環球投資基金 - 均衡基金</label>
+            </value>
+            <value>
+                <fullName>190 匯豐強積金"A"系列 - 均衡基金</fullName>
+                <default>false</default>
+                <label>190 匯豐強積金"A"系列 - 均衡基金</label>
+            </value>
+            <value>
+                <fullName>195 景順環球均衡基金</fullName>
+                <default>false</default>
+                <label>195 景順環球均衡基金</label>
+            </value>
+            <value>
+                <fullName>210 施羅德強積金均衡基金</fullName>
+                <default>false</default>
+                <label>210 施羅德強積金均衡基金</label>
+            </value>
+            <value>
+                <fullName>215 鄧普頓強積金環球股票基金</fullName>
+                <default>false</default>
+                <label>215 鄧普頓強積金環球股票基金</label>
+            </value>
+            <value>
+                <fullName>225 安聯精選穩定資本基金</fullName>
+                <default>false</default>
+                <label>225 安聯精選穩定資本基金</label>
+            </value>
+            <value>
+                <fullName>230 富達環球投資基金 - 資本穩定基金</fullName>
+                <default>false</default>
+                <label>230 富達環球投資基金 - 資本穩定基金</label>
+            </value>
+            <value>
+                <fullName>235 匯豐強積金"A"系列 - 平穩基金</fullName>
+                <default>false</default>
+                <label>235 匯豐強積金"A"系列 - 平穩基金</label>
+            </value>
+            <value>
+                <fullName>250 景順強積金債券基金</fullName>
+                <default>false</default>
+                <label>250 景順強積金債券基金</label>
+            </value>
+            <value>
+                <fullName>260 施羅德人民幣及港元定息基金</fullName>
+                <default>false</default>
+                <label>260 施羅德人民幣及港元定息基金</label>
+            </value>
+            <value>
+                <fullName>265 鄧普頓強積金環球債券基金</fullName>
+                <default>false</default>
+                <label>265 鄧普頓強積金環球債券基金</label>
+            </value>
+            <value>
+                <fullName>宏利強積金核心累積基金 - 全面</fullName>
+                <default>false</default>
+                <label>宏利強積金核心累積基金 - 全面</label>
+            </value>
+            <value>
+                <fullName>宏利強積金 65 歲後基金 - 全面</fullName>
+                <default>false</default>
+                <label>宏利強積金 65 歲後基金 - 全面</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

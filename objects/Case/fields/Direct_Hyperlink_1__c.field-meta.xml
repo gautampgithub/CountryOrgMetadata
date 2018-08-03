@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Direct_Hyperlink_1__c</fullName>
+    <description>To show details of the case like interactions, comments etc. (TBD) .</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK("https://manulifehk--ccdev01.cs57.my.salesforce.com/apex/cct_Direct_Link_To_Hyperlink_Page?csId="&amp;CaseNumber , "Direct Link to SCB" , "_blank")</formula>
+    <label>Direct Link to SCB</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

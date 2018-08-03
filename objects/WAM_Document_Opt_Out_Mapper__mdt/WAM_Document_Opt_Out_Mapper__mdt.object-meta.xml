@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>WAMCRM: Mapping individual document at contact into Document category.</description>
+    <label>WAM Document Opt Out Mapper</label>
+    <pluralLabel>WAM Document Opt Out Mappers</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mil_Move_Rule_Client_Based_Enable__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>A checkbox to enable client based rule engine or not</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A checkbox to enable client based rule engine or not</inlineHelpText>
+    <label>Mil_Move_Rule_Client_Based_Enable</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

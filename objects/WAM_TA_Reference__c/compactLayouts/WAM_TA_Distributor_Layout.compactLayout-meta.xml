@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAM_TA_Distributor_Layout</fullName>
+    <fields>Level_Indicator__c</fields>
+    <fields>Code__c</fields>
+    <fields>Channel_Code__c</fields>
+    <fields>Sub_Channel_Code__c</fields>
+    <label>WAM TA Distributor Layout</label>
+</CompactLayout>

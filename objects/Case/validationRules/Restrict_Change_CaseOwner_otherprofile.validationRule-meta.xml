@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Change_CaseOwner_otherprofile</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND ( OR($Profile.Name ="CCC CSO User",$Profile.Name ="Restricted CCC CSO User"),
+ISCHANGED( OwnerId ),
+CASE( Owner:Queue.Name,
+&#39;CET - Post-sale CSO Group&#39;, 1,
+&#39;CET - Post-sale Supervisor Group&#39;, 1,
+&#39;CET - Unassigned Cust. Supervisor Group&#39;, 1,
+&#39;CET - Unassigned Cust. CSO Group&#39;, 1,
+0) &lt;&gt; 1,
+Owner:User.Profile.Name &lt;&gt; "CCC CSO User",
+Owner:User.Profile.Name &lt;&gt; "Restricted CCC CSO User",
+OR( RecordType.Name = "Orphan Permissive", 
+RecordType.Name = "Orphan Restrictive", 
+RecordType.Name = "Post Sales Permissive", 
+RecordType.Name = "Post Sales Restrictive"))</errorConditionFormula>
+    <errorMessage>Cases can only be assigned to the CET users.</errorMessage>
+</ValidationRule>

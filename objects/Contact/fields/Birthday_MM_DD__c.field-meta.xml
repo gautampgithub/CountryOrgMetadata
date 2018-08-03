@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Birthday_MM_DD__c</fullName>
+    <description>Support WAM Birthday field</description>
+    <encrypted>false</encrypted>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter birthday in (MM/DD/YYYY). 
+E.g. 12/23/1988
+Year is optional. 
+E.g. 12/23</inlineHelpText>
+    <label>Birthdate (MM/DD)</label>
+    <length>10</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

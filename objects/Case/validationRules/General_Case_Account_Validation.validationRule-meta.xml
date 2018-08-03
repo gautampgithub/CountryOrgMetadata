@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>General_Case_Account_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED(AccountId), 
+AND(OR(RecordType.Name = "Inbound GLH Customer", 
+RecordType.Name = "Inbound GP Customer", 
+RecordType.Name = "Inbound IFP Customer", 
+RecordType.Name = "Inbound WAM Customer")))</errorConditionFormula>
+    <errorMessage>You are not allowed to change the Account</errorMessage>
+</ValidationRule>

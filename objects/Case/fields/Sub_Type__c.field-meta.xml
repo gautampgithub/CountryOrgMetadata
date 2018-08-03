@@ -1,0 +1,1564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agent Service</fullName>
+                <default>false</default>
+                <label>Agent Service</label>
+            </value>
+            <value>
+                <fullName>Address Change</fullName>
+                <default>false</default>
+                <label>Address Change</label>
+            </value>
+            <value>
+                <fullName>Dependent</fullName>
+                <default>false</default>
+                <label>Dependent</label>
+            </value>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+            <value>
+                <fullName>Procedure</fullName>
+                <default>false</default>
+                <label>Procedure</label>
+            </value>
+            <value>
+                <fullName>Remittance/Payment Method Related</fullName>
+                <default>false</default>
+                <label>Remittance/Payment Method Related</label>
+            </value>
+            <value>
+                <fullName>Contribution Status / Outstanding Contribution</fullName>
+                <default>false</default>
+                <label>Contribution Status / Outstanding Contribution</label>
+            </value>
+            <value>
+                <fullName>Calculation</fullName>
+                <default>false</default>
+                <label>Calculation</label>
+            </value>
+            <value>
+                <fullName>Legislation</fullName>
+                <default>false</default>
+                <label>Legislation</label>
+            </value>
+            <value>
+                <fullName>Surcharge Enquiry (Reason/Reporting/Legislation)</fullName>
+                <default>false</default>
+                <label>Surcharge Enquiry (Reason/Reporting/Legislation)</label>
+            </value>
+            <value>
+                <fullName>Surcharge Appeal</fullName>
+                <default>false</default>
+                <label>Surcharge Appeal</label>
+            </value>
+            <value>
+                <fullName>CDR / Cont Hole Pack / ER Pack / ER Monthly Follow-up Summary</fullName>
+                <default>false</default>
+                <label>CDR / Cont Hole Pack / ER Pack / ER Monthly Follow-up Summary</label>
+            </value>
+            <value>
+                <fullName>Form Request</fullName>
+                <default>false</default>
+                <label>Form Request</label>
+            </value>
+            <value>
+                <fullName>How to fill</fullName>
+                <default>false</default>
+                <label>How to fill</label>
+            </value>
+            <value>
+                <fullName>Report / Statement Request</fullName>
+                <default>false</default>
+                <label>Report / Statement Request</label>
+            </value>
+            <value>
+                <fullName>Mail Cont Hole Pack</fullName>
+                <default>false</default>
+                <label>Mail Cont Hole Pack</label>
+            </value>
+            <value>
+                <fullName>CSC Use - Cont Doc Submission</fullName>
+                <default>false</default>
+                <label>CSC Use - Cont Doc Submission</label>
+            </value>
+            <value>
+                <fullName>Status</fullName>
+                <default>false</default>
+                <label>Status</label>
+            </value>
+            <value>
+                <fullName>Reissue NOP</fullName>
+                <default>false</default>
+                <label>Reissue NOP</label>
+            </value>
+            <value>
+                <fullName>Enrollment Correction</fullName>
+                <default>false</default>
+                <label>Enrollment Correction</label>
+            </value>
+            <value>
+                <fullName>MBS Enquiry</fullName>
+                <default>false</default>
+                <label>MBS Enquiry</label>
+            </value>
+            <value>
+                <fullName>Account Information (e.g. Balance, Contribution status)</fullName>
+                <default>false</default>
+                <label>Account Information (e.g. Balance, Contribution status)</label>
+            </value>
+            <value>
+                <fullName>Fund Choice Management</fullName>
+                <default>false</default>
+                <label>Fund Choice Management</label>
+            </value>
+            <value>
+                <fullName>Fund Info</fullName>
+                <default>false</default>
+                <label>Fund Info</label>
+            </value>
+            <value>
+                <fullName>Account Information</fullName>
+                <default>false</default>
+                <label>Account Information</label>
+            </value>
+            <value>
+                <fullName>Account Balance</fullName>
+                <default>false</default>
+                <label>Account Balance</label>
+            </value>
+            <value>
+                <fullName>Login Issue</fullName>
+                <default>false</default>
+                <label>Login Issue</label>
+            </value>
+            <value>
+                <fullName>Reset PIN</fullName>
+                <default>false</default>
+                <label>Reset PIN</label>
+            </value>
+            <value>
+                <fullName>Technical Problem</fullName>
+                <default>false</default>
+                <label>Technical Problem</label>
+            </value>
+            <value>
+                <fullName>How to Use/ Navigation</fullName>
+                <default>false</default>
+                <label>How to Use/ Navigation</label>
+            </value>
+            <value>
+                <fullName>Labour Department Related</fullName>
+                <default>false</default>
+                <label>Labour Department Related</label>
+            </value>
+            <value>
+                <fullName>Request AB Balance</fullName>
+                <default>false</default>
+                <label>Request AB Balance</label>
+            </value>
+            <value>
+                <fullName>Internal Transfer</fullName>
+                <default>false</default>
+                <label>Internal Transfer</label>
+            </value>
+            <value>
+                <fullName>CSC Use - Doc Submission</fullName>
+                <default>false</default>
+                <label>CSC Use - Doc Submission</label>
+            </value>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>Verbal Update - Reject</fullName>
+                <default>false</default>
+                <label>Verbal Update - Reject</label>
+            </value>
+            <value>
+                <fullName>Verbal Update - No Change</fullName>
+                <default>false</default>
+                <label>Verbal Update - No Change</label>
+            </value>
+            <value>
+                <fullName>Advisor Change</fullName>
+                <default>false</default>
+                <label>Advisor Change</label>
+            </value>
+            <value>
+                <fullName>Advisor Service</fullName>
+                <default>false</default>
+                <label>Advisor Service</label>
+            </value>
+            <value>
+                <fullName>Assignment</fullName>
+                <default>false</default>
+                <label>Assignment</label>
+            </value>
+            <value>
+                <fullName>PC / Commission</fullName>
+                <default>false</default>
+                <label>PC / Commission</label>
+            </value>
+            <value>
+                <fullName>Cheque Collection</fullName>
+                <default>false</default>
+                <label>Cheque Collection</label>
+            </value>
+            <value>
+                <fullName>Document collection</fullName>
+                <default>false</default>
+                <label>Document collection</label>
+            </value>
+            <value>
+                <fullName>CQ/Doc Submission (without enquiry)</fullName>
+                <default>false</default>
+                <label>CQ/Doc Submission (without enquiry)</label>
+            </value>
+            <value>
+                <fullName>Pre- Screen Application</fullName>
+                <default>false</default>
+                <label>Pre- Screen Application</label>
+            </value>
+            <value>
+                <fullName>Submission over Counter</fullName>
+                <default>false</default>
+                <label>Submission over Counter</label>
+            </value>
+            <value>
+                <fullName>Return to Agent</fullName>
+                <default>false</default>
+                <label>Return to Agent</label>
+            </value>
+            <value>
+                <fullName>NB Drop Box Follow up</fullName>
+                <default>false</default>
+                <label>NB Drop Box Follow up</label>
+            </value>
+            <value>
+                <fullName>Advisor Document collection</fullName>
+                <default>false</default>
+                <label>Advisor Document collection</label>
+            </value>
+            <value>
+                <fullName>Company Info/ Locating Person</fullName>
+                <default>false</default>
+                <label>Company Info/ Locating Person</label>
+            </value>
+            <value>
+                <fullName>DIS - Features</fullName>
+                <default>false</default>
+                <label>DIS - Features</label>
+            </value>
+            <value>
+                <fullName>DIS - Fees and Expends of DIS CFs</fullName>
+                <default>false</default>
+                <label>DIS - Fees and Expends of DIS CFs</label>
+            </value>
+            <value>
+                <fullName>DIS - Other</fullName>
+                <default>false</default>
+                <label>DIS - Other</label>
+            </value>
+            <value>
+                <fullName>DIS - Reinvestment Notices</fullName>
+                <default>false</default>
+                <label>DIS - Reinvestment Notices</label>
+            </value>
+            <value>
+                <fullName>Fund / Product Info</fullName>
+                <default>false</default>
+                <label>Fund / Product Info</label>
+            </value>
+            <value>
+                <fullName>Marketing Campaign</fullName>
+                <default>false</default>
+                <label>Marketing Campaign</label>
+            </value>
+            <value>
+                <fullName>ORSO Audit Related</fullName>
+                <default>false</default>
+                <label>ORSO Audit Related</label>
+            </value>
+            <value>
+                <fullName>Request for Brochure / Leaflet / Sales Kits</fullName>
+                <default>false</default>
+                <label>Request for Brochure / Leaflet / Sales Kits</label>
+            </value>
+            <value>
+                <fullName>Seminar Related</fullName>
+                <default>false</default>
+                <label>Seminar Related</label>
+            </value>
+            <value>
+                <fullName>Reject Reason</fullName>
+                <default>false</default>
+                <label>Reject Reason</label>
+            </value>
+            <value>
+                <fullName>Refund Information</fullName>
+                <default>false</default>
+                <label>Refund Information</label>
+            </value>
+            <value>
+                <fullName>Accumulator</fullName>
+                <default>false</default>
+                <label>Accumulator</label>
+            </value>
+            <value>
+                <fullName>Appeal</fullName>
+                <default>false</default>
+                <label>Appeal</label>
+            </value>
+            <value>
+                <fullName>Return Receipt Status/ Procedure</fullName>
+                <default>false</default>
+                <label>Return Receipt Status/ Procedure</label>
+            </value>
+            <value>
+                <fullName>Shortfall</fullName>
+                <default>false</default>
+                <label>Shortfall</label>
+            </value>
+            <value>
+                <fullName>Benefit Schedule Explanation</fullName>
+                <default>false</default>
+                <label>Benefit Schedule Explanation</label>
+            </value>
+            <value>
+                <fullName>Resend Benefit Schedule</fullName>
+                <default>false</default>
+                <label>Resend Benefit Schedule</label>
+            </value>
+            <value>
+                <fullName>Surgical Schedule Enquiry</fullName>
+                <default>false</default>
+                <label>Surgical Schedule Enquiry</label>
+            </value>
+            <value>
+                <fullName>Panel - Benefit</fullName>
+                <default>false</default>
+                <label>Panel - Benefit</label>
+            </value>
+            <value>
+                <fullName>Panel - Dr List</fullName>
+                <default>false</default>
+                <label>Panel - Dr List</label>
+            </value>
+            <value>
+                <fullName>Letter of Guarantee</fullName>
+                <default>false</default>
+                <label>Letter of Guarantee</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Card Reissue</fullName>
+                <default>false</default>
+                <label>Card Reissue</label>
+            </value>
+            <value>
+                <fullName>Underwriting Related</fullName>
+                <default>false</default>
+                <label>Underwriting Related</label>
+            </value>
+            <value>
+                <fullName>Billing ( Debit Note/ Change Summary)</fullName>
+                <default>false</default>
+                <label>Billing ( Debit Note/ Change Summary)</label>
+            </value>
+            <value>
+                <fullName>Payment Related</fullName>
+                <default>false</default>
+                <label>Payment Related</label>
+            </value>
+            <value>
+                <fullName>Freebie</fullName>
+                <default>false</default>
+                <label>Freebie</label>
+            </value>
+            <value>
+                <fullName>Card issue</fullName>
+                <default>false</default>
+                <label>Card issue</label>
+            </value>
+            <value>
+                <fullName>From Request</fullName>
+                <default>false</default>
+                <label>From Request</label>
+            </value>
+            <value>
+                <fullName>CDD</fullName>
+                <default>false</default>
+                <label>CDD</label>
+            </value>
+            <value>
+                <fullName>Debit Note</fullName>
+                <default>false</default>
+                <label>Debit Note</label>
+            </value>
+            <value>
+                <fullName>Pre-screen application</fullName>
+                <default>false</default>
+                <label>Pre-screen application</label>
+            </value>
+            <value>
+                <fullName>NB Drop Box Follow-up</fullName>
+                <default>false</default>
+                <label>NB Drop Box Follow-up</label>
+            </value>
+            <value>
+                <fullName>Product Info</fullName>
+                <default>false</default>
+                <label>Product Info</label>
+            </value>
+            <value>
+                <fullName>Request for Brochure / Leaflet</fullName>
+                <default>false</default>
+                <label>Request for Brochure / Leaflet</label>
+            </value>
+            <value>
+                <fullName>Eligibility/Enrollment Status</fullName>
+                <default>false</default>
+                <label>Eligibility/Enrollment Status</label>
+            </value>
+            <value>
+                <fullName>MOVE Key enquiry</fullName>
+                <default>false</default>
+                <label>MOVE Key enquiry</label>
+            </value>
+            <value>
+                <fullName>Application Related</fullName>
+                <default>false</default>
+                <label>Application Related</label>
+            </value>
+            <value>
+                <fullName>Data Synchronization</fullName>
+                <default>false</default>
+                <label>Data Synchronization</label>
+            </value>
+            <value>
+                <fullName>Premium Discount</fullName>
+                <default>false</default>
+                <label>Premium Discount</label>
+            </value>
+            <value>
+                <fullName>Appeal/Special Request</fullName>
+                <default>false</default>
+                <label>Appeal/Special Request</label>
+            </value>
+            <value>
+                <fullName>MOVE Key Resend</fullName>
+                <default>false</default>
+                <label>MOVE Key Resend</label>
+            </value>
+            <value>
+                <fullName>Device and Tracker Related</fullName>
+                <default>false</default>
+                <label>Device and Tracker Related</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Reset PIN(CCC)</fullName>
+                <default>false</default>
+                <label>Reset PIN(CCC)</label>
+            </value>
+            <value>
+                <fullName>How To Use / Navigation</fullName>
+                <default>false</default>
+                <label>How To Use / Navigation</label>
+            </value>
+            <value>
+                <fullName>Coverage</fullName>
+                <default>false</default>
+                <label>Coverage</label>
+            </value>
+            <value>
+                <fullName>Policy Number</fullName>
+                <default>false</default>
+                <label>Policy Number</label>
+            </value>
+            <value>
+                <fullName>Values / MVY deduction details</fullName>
+                <default>false</default>
+                <label>Values / MVY deduction details</label>
+            </value>
+            <value>
+                <fullName>Payment Methods</fullName>
+                <default>false</default>
+                <label>Payment Methods</label>
+            </value>
+            <value>
+                <fullName>Customer Statement (Policy Report, Pol. Illustration, Notice)</fullName>
+                <default>false</default>
+                <label>Customer Statement (Policy Report, Pol. Illustration, Notice)</label>
+            </value>
+            <value>
+                <fullName>Product related ( Plan features, Benefit schedule, Provision, Doctor List, Fund info)</fullName>
+                <default>false</default>
+                <label>Product related ( Plan features, Benefit schedule, Provision, Doctor List, Fund info)</label>
+            </value>
+            <value>
+                <fullName>Contract / Endorsement Request</fullName>
+                <default>false</default>
+                <label>Contract / Endorsement Request</label>
+            </value>
+            <value>
+                <fullName>Request for Brochure / Pamphlet</fullName>
+                <default>false</default>
+                <label>Request for Brochure / Pamphlet</label>
+            </value>
+            <value>
+                <fullName>Exclusion / Rating (DCC)</fullName>
+                <default>false</default>
+                <label>Exclusion / Rating (DCC)</label>
+            </value>
+            <value>
+                <fullName>Autopay Setup</fullName>
+                <default>false</default>
+                <label>Autopay Setup</label>
+            </value>
+            <value>
+                <fullName>Reverse APL / APMC / Loan Repayment / Apply Premium</fullName>
+                <default>false</default>
+                <label>Reverse APL / APMC / Loan Repayment / Apply Premium</label>
+            </value>
+            <value>
+                <fullName>Loan Balance / History</fullName>
+                <default>false</default>
+                <label>Loan Balance / History</label>
+            </value>
+            <value>
+                <fullName>Autopay or Premium Status / History</fullName>
+                <default>false</default>
+                <label>Autopay or Premium Status / History</label>
+            </value>
+            <value>
+                <fullName>Signature / Beneficiary Information Checking</fullName>
+                <default>false</default>
+                <label>Signature / Beneficiary Information Checking</label>
+            </value>
+            <value>
+                <fullName>Advisor Change - Status</fullName>
+                <default>false</default>
+                <label>Advisor Change - Status</label>
+            </value>
+            <value>
+                <fullName>Advisor Change - Procedure</fullName>
+                <default>false</default>
+                <label>Advisor Change - Procedure</label>
+            </value>
+            <value>
+                <fullName>PC / Commission Charge Back</fullName>
+                <default>false</default>
+                <label>PC / Commission Charge Back</label>
+            </value>
+            <value>
+                <fullName>Agency rules and regulatory</fullName>
+                <default>false</default>
+                <label>Agency rules and regulatory</label>
+            </value>
+            <value>
+                <fullName>Customer Particulars Change</fullName>
+                <default>false</default>
+                <label>Customer Particulars Change</label>
+            </value>
+            <value>
+                <fullName>Assignment/ Beneficiary Change</fullName>
+                <default>false</default>
+                <label>Assignment/ Beneficiary Change</label>
+            </value>
+            <value>
+                <fullName>Face Amount Increase / Decrease</fullName>
+                <default>false</default>
+                <label>Face Amount Increase / Decrease</label>
+            </value>
+            <value>
+                <fullName>Rider Addition / Deletion / Transfer</fullName>
+                <default>false</default>
+                <label>Rider Addition / Deletion / Transfer</label>
+            </value>
+            <value>
+                <fullName>IPO Changes</fullName>
+                <default>false</default>
+                <label>IPO Changes</label>
+            </value>
+            <value>
+                <fullName>Autopay / Payment Mode/ Method Change</fullName>
+                <default>false</default>
+                <label>Autopay / Payment Mode/ Method Change</label>
+            </value>
+            <value>
+                <fullName>Reinstatement</fullName>
+                <default>false</default>
+                <label>Reinstatement</label>
+            </value>
+            <value>
+                <fullName>Other Changes</fullName>
+                <default>false</default>
+                <label>Other Changes</label>
+            </value>
+            <value>
+                <fullName>Form Request / Enquiry</fullName>
+                <default>false</default>
+                <label>Form Request / Enquiry</label>
+            </value>
+            <value>
+                <fullName>FNA (DCC)</fullName>
+                <default>false</default>
+                <label>FNA (DCC)</label>
+            </value>
+            <value>
+                <fullName>PC / Commission Charge Back (DCC)</fullName>
+                <default>false</default>
+                <label>PC / Commission Charge Back (DCC)</label>
+            </value>
+            <value>
+                <fullName>Regulatory Enquiry (DCC)</fullName>
+                <default>false</default>
+                <label>Regulatory Enquiry (DCC)</label>
+            </value>
+            <value>
+                <fullName>Change to Non-Smoker Rate</fullName>
+                <default>false</default>
+                <label>Change to Non-Smoker Rate</label>
+            </value>
+            <value>
+                <fullName>Rating / Exclusion Removal</fullName>
+                <default>false</default>
+                <label>Rating / Exclusion Removal</label>
+            </value>
+            <value>
+                <fullName>Plan Change (within Cooling Off Period or NOT)</fullName>
+                <default>false</default>
+                <label>Plan Change (within Cooling Off Period or NOT)</label>
+            </value>
+            <value>
+                <fullName>Premium Offset / Prepayment</fullName>
+                <default>false</default>
+                <label>Premium Offset / Prepayment</label>
+            </value>
+            <value>
+                <fullName>Cover Me Again</fullName>
+                <default>false</default>
+                <label>Cover Me Again</label>
+            </value>
+            <value>
+                <fullName>Disbursement Related</fullName>
+                <default>false</default>
+                <label>Disbursement Related</label>
+            </value>
+            <value>
+                <fullName>Outstanding Documents / memo clarification  (DCC)</fullName>
+                <default>false</default>
+                <label>Outstanding Documents / memo clarification  (DCC)</label>
+            </value>
+            <value>
+                <fullName>Redemption Charge</fullName>
+                <default>false</default>
+                <label>Redemption Charge</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Dividend</fullName>
+                <default>false</default>
+                <label>Dividend</label>
+            </value>
+            <value>
+                <fullName>Loan</fullName>
+                <default>false</default>
+                <label>Loan</label>
+            </value>
+            <value>
+                <fullName>Coupon</fullName>
+                <default>false</default>
+                <label>Coupon</label>
+            </value>
+            <value>
+                <fullName>Memo Clarification</fullName>
+                <default>false</default>
+                <label>Memo Clarification</label>
+            </value>
+            <value>
+                <fullName>Case status</fullName>
+                <default>false</default>
+                <label>Case status</label>
+            </value>
+            <value>
+                <fullName>FNA</fullName>
+                <default>false</default>
+                <label>FNA</label>
+            </value>
+            <value>
+                <fullName>Regulatory Enquiry</fullName>
+                <default>false</default>
+                <label>Regulatory Enquiry</label>
+            </value>
+            <value>
+                <fullName>Refund cheque status  - Drop case</fullName>
+                <default>false</default>
+                <label>Refund cheque status  - Drop case</label>
+            </value>
+            <value>
+                <fullName>Reissue Contract</fullName>
+                <default>false</default>
+                <label>Reissue Contract</label>
+            </value>
+            <value>
+                <fullName>Refer enquiry to different product line / Case Manager (HNW - DCC)</fullName>
+                <default>false</default>
+                <label>Refer enquiry to different product line / Case Manager (HNW - DCC)</label>
+            </value>
+            <value>
+                <fullName>Advisor / Customer call in or visit record</fullName>
+                <default>false</default>
+                <label>Advisor / Customer call in or visit record</label>
+            </value>
+            <value>
+                <fullName>Free medical check up related</fullName>
+                <default>false</default>
+                <label>Free medical check up related</label>
+            </value>
+            <value>
+                <fullName>Company info / Locating person</fullName>
+                <default>false</default>
+                <label>Company info / Locating person</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Receipt Book Issue / Exchange / Return (DCC)</fullName>
+                <default>false</default>
+                <label>Receipt Book Issue / Exchange / Return (DCC)</label>
+            </value>
+            <value>
+                <fullName>Demutualization</fullName>
+                <default>false</default>
+                <label>Demutualization</label>
+            </value>
+            <value>
+                <fullName>Claims Procedure</fullName>
+                <default>false</default>
+                <label>Claims Procedure</label>
+            </value>
+            <value>
+                <fullName>Outstanding Document</fullName>
+                <default>false</default>
+                <label>Outstanding Document</label>
+            </value>
+            <value>
+                <fullName>Pre-authorization request on Credit Facility</fullName>
+                <default>false</default>
+                <label>Pre-authorization request on Credit Facility</label>
+            </value>
+            <value>
+                <fullName>Clarify CPR / Email (DCC)</fullName>
+                <default>false</default>
+                <label>Clarify CPR / Email (DCC)</label>
+            </value>
+            <value>
+                <fullName>Claims Eligibility</fullName>
+                <default>false</default>
+                <label>Claims Eligibility</label>
+            </value>
+            <value>
+                <fullName>Request Return / Reissue Claims Document</fullName>
+                <default>false</default>
+                <label>Request Return / Reissue Claims Document</label>
+            </value>
+            <value>
+                <fullName>Surgical %</fullName>
+                <default>false</default>
+                <label>Surgical %</label>
+            </value>
+            <value>
+                <fullName>Clarify Claims Amount / Appeal Procedure</fullName>
+                <default>false</default>
+                <label>Clarify Claims Amount / Appeal Procedure</label>
+            </value>
+            <value>
+                <fullName>Reconsideration Requirement</fullName>
+                <default>false</default>
+                <label>Reconsideration Requirement</label>
+            </value>
+            <value>
+                <fullName>Clarify UPR / Email</fullName>
+                <default>false</default>
+                <label>Clarify UPR / Email</label>
+            </value>
+            <value>
+                <fullName>Release Medical Report</fullName>
+                <default>false</default>
+                <label>Release Medical Report</label>
+            </value>
+            <value>
+                <fullName>Reissue Document</fullName>
+                <default>false</default>
+                <label>Reissue Document</label>
+            </value>
+            <value>
+                <fullName>UW (EOI / Medical Illness Requirement)</fullName>
+                <default>false</default>
+                <label>UW (EOI / Medical Illness Requirement)</label>
+            </value>
+            <value>
+                <fullName>UW (Financial) Rule</fullName>
+                <default>false</default>
+                <label>UW (Financial) Rule</label>
+            </value>
+            <value>
+                <fullName>UW (Occupation) Rule</fullName>
+                <default>false</default>
+                <label>UW (Occupation) Rule</label>
+            </value>
+            <value>
+                <fullName>UW (Residential) Rule</fullName>
+                <default>false</default>
+                <label>UW (Residential) Rule</label>
+            </value>
+            <value>
+                <fullName>Switching</fullName>
+                <default>false</default>
+                <label>Switching</label>
+            </value>
+            <value>
+                <fullName>Redemption</fullName>
+                <default>false</default>
+                <label>Redemption</label>
+            </value>
+            <value>
+                <fullName>Allocation</fullName>
+                <default>false</default>
+                <label>Allocation</label>
+            </value>
+            <value>
+                <fullName>Subscription</fullName>
+                <default>false</default>
+                <label>Subscription</label>
+            </value>
+            <value>
+                <fullName>Record Date / Payout Schedule</fullName>
+                <default>false</default>
+                <label>Record Date / Payout Schedule</label>
+            </value>
+            <value>
+                <fullName>Confirmation of Fax / Mail in</fullName>
+                <default>false</default>
+                <label>Confirmation of Fax / Mail in</label>
+            </value>
+            <value>
+                <fullName>General Enquiry</fullName>
+                <default>false</default>
+                <label>General Enquiry</label>
+            </value>
+            <value>
+                <fullName>Direct Saver</fullName>
+                <default>false</default>
+                <label>Direct Saver</label>
+            </value>
+            <value>
+                <fullName>Record Change</fullName>
+                <default>false</default>
+                <label>Record Change</label>
+            </value>
+            <value>
+                <fullName>Fund Balance</fullName>
+                <default>false</default>
+                <label>Fund Balance</label>
+            </value>
+            <value>
+                <fullName>Fund Information</fullName>
+                <default>false</default>
+                <label>Fund Information</label>
+            </value>
+            <value>
+                <fullName>Gain Loss Ratio</fullName>
+                <default>false</default>
+                <label>Gain Loss Ratio</label>
+            </value>
+            <value>
+                <fullName>Transaction history</fullName>
+                <default>false</default>
+                <label>Transaction history</label>
+            </value>
+            <value>
+                <fullName>Contract Note</fullName>
+                <default>false</default>
+                <label>Contract Note</label>
+            </value>
+            <value>
+                <fullName>Statement</fullName>
+                <default>false</default>
+                <label>Statement</label>
+            </value>
+            <value>
+                <fullName>Report</fullName>
+                <default>false</default>
+                <label>Report</label>
+            </value>
+            <value>
+                <fullName>Brochure</fullName>
+                <default>false</default>
+                <label>Brochure</label>
+            </value>
+            <value>
+                <fullName>Seminar</fullName>
+                <default>false</default>
+                <label>Seminar</label>
+            </value>
+            <value>
+                <fullName>Inquiries On Other Product Lines</fullName>
+                <default>false</default>
+                <label>Inquiries On Other Product Lines</label>
+            </value>
+            <value>
+                <fullName>Client Profile / RPQ Update</fullName>
+                <default>false</default>
+                <label>Client Profile / RPQ Update</label>
+            </value>
+            <value>
+                <fullName>Stock Transfer</fullName>
+                <default>false</default>
+                <label>Stock Transfer</label>
+            </value>
+            <value>
+                <fullName>Dividend / Bonus</fullName>
+                <default>false</default>
+                <label>Dividend / Bonus</label>
+            </value>
+            <value>
+                <fullName>CSC - Document Submission</fullName>
+                <default>false</default>
+                <label>CSC - Document Submission</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; Change Enquiry</controllingFieldValue>
+            <controllingFieldValue>Surrender/Not Taken/Maturity</controllingFieldValue>
+            <controllingFieldValue>Enrollment</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Member Termination</controllingFieldValue>
+            <controllingFieldValue>Scheme Termination</controllingFieldValue>
+            <controllingFieldValue>Scheme Transfer</controllingFieldValue>
+            <controllingFieldValue>Member Transfer</controllingFieldValue>
+            <controllingFieldValue>ER Termination</controllingFieldValue>
+            <controllingFieldValue>EE Particular Changes</controllingFieldValue>
+            <controllingFieldValue>Member Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Renewal / Policy Change</controllingFieldValue>
+            <controllingFieldValue>ER Particular Changes</controllingFieldValue>
+            <valueName>Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; Change Enquiry</controllingFieldValue>
+            <controllingFieldValue>Surrender/Not Taken/Maturity</controllingFieldValue>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <controllingFieldValue>Enrollment</controllingFieldValue>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <controllingFieldValue>Admin Change</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Member Termination</controllingFieldValue>
+            <controllingFieldValue>Plan Coverage</controllingFieldValue>
+            <controllingFieldValue>Scheme Termination</controllingFieldValue>
+            <controllingFieldValue>Scheme Transfer</controllingFieldValue>
+            <controllingFieldValue>Member Transfer</controllingFieldValue>
+            <controllingFieldValue>ER Termination</controllingFieldValue>
+            <controllingFieldValue>EE Particular Changes</controllingFieldValue>
+            <controllingFieldValue>Member Withdrawal</controllingFieldValue>
+            <controllingFieldValue>ER Particular Changes</controllingFieldValue>
+            <valueName>Form Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; Change Enquiry</controllingFieldValue>
+            <controllingFieldValue>Surrender/Not Taken/Maturity</controllingFieldValue>
+            <controllingFieldValue>Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <controllingFieldValue>Enrollment</controllingFieldValue>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Member Termination</controllingFieldValue>
+            <controllingFieldValue>Plan Coverage</controllingFieldValue>
+            <controllingFieldValue>Scheme Termination</controllingFieldValue>
+            <controllingFieldValue>Scheme Transfer</controllingFieldValue>
+            <controllingFieldValue>Member Transfer</controllingFieldValue>
+            <controllingFieldValue>ER Termination</controllingFieldValue>
+            <controllingFieldValue>EE Particular Changes</controllingFieldValue>
+            <controllingFieldValue>Member Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Renewal / Policy Change</controllingFieldValue>
+            <controllingFieldValue>ER Particular Changes</controllingFieldValue>
+            <valueName>How to fill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; Change Enquiry</controllingFieldValue>
+            <controllingFieldValue>Surrender/Not Taken/Maturity</controllingFieldValue>
+            <controllingFieldValue>Enrollment</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Member Termination</controllingFieldValue>
+            <controllingFieldValue>Scheme Termination</controllingFieldValue>
+            <controllingFieldValue>Scheme Transfer</controllingFieldValue>
+            <controllingFieldValue>Member Transfer</controllingFieldValue>
+            <controllingFieldValue>ER Termination</controllingFieldValue>
+            <controllingFieldValue>EE Particular Changes</controllingFieldValue>
+            <controllingFieldValue>Member Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Renewal / Policy Change</controllingFieldValue>
+            <controllingFieldValue>ER Particular Changes</controllingFieldValue>
+            <valueName>Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; Change Enquiry</controllingFieldValue>
+            <valueName>Verbal Update - Reject</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin &amp; Change Enquiry</controllingFieldValue>
+            <valueName>Verbal Update - No Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advisor Change/Compensation/ Regulatory</controllingFieldValue>
+            <valueName>Advisor Change - Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advisor Change/Compensation/ Regulatory</controllingFieldValue>
+            <valueName>Advisor Change - Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advisor Change/Compensation/ Regulatory</controllingFieldValue>
+            <valueName>PC / Commission Charge Back</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advisor Change/Compensation/ Regulatory</controllingFieldValue>
+            <valueName>Agency rules and regulatory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surrender/Not Taken/Maturity</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Disbursement Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surrender/Not Taken/Maturity</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Outstanding Documents / memo clarification  (DCC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surrender/Not Taken/Maturity</controllingFieldValue>
+            <valueName>Redemption Charge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surrender/Not Taken/Maturity</controllingFieldValue>
+            <controllingFieldValue>Withdrawal</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Form Request / Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawal</controllingFieldValue>
+            <valueName>Dividend</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawal</controllingFieldValue>
+            <valueName>Loan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Withdrawal</controllingFieldValue>
+            <valueName>Coupon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Case status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>Clarify UPR / Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>Release Medical Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>Reissue Document</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>UW (EOI / Medical Illness Requirement)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>UW (Financial) Rule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>UW (Occupation) Rule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>UW (Residential) Rule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <valueName>Remittance/Payment Method Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <valueName>Contribution Status / Outstanding Contribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <valueName>Calculation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <controllingFieldValue>Enrollment</controllingFieldValue>
+            <controllingFieldValue>Member Termination</controllingFieldValue>
+            <controllingFieldValue>Member Withdrawal</controllingFieldValue>
+            <valueName>Legislation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <valueName>Surcharge Enquiry (Reason/Reporting/Legislation)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <valueName>Surcharge Appeal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <valueName>CDR / Cont Hole Pack / ER Pack / ER Monthly Follow-up Summary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <controllingFieldValue>Member Account Status</controllingFieldValue>
+            <valueName>Report / Statement Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <valueName>Mail Cont Hole Pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <controllingFieldValue>Member Withdrawal</controllingFieldValue>
+            <valueName>CSC Use - Cont Doc Submission</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enrollment</controllingFieldValue>
+            <valueName>Reissue NOP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enrollment</controllingFieldValue>
+            <valueName>Enrollment Correction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <valueName>Switching</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <valueName>Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <valueName>Allocation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <valueName>Subscription</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <valueName>Confirmation of Fax / Mail in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <controllingFieldValue>Account Details</controllingFieldValue>
+            <valueName>Fund Balance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <valueName>Stock Transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <valueName>Dividend / Bonus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fund Management</controllingFieldValue>
+            <valueName>CSC - Document Submission</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin Change</controllingFieldValue>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Customer Particulars Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin Change</controllingFieldValue>
+            <valueName>Direct Saver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin Change</controllingFieldValue>
+            <valueName>Record Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Details</controllingFieldValue>
+            <valueName>Fund Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Details</controllingFieldValue>
+            <valueName>Gain Loss Ratio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Details</controllingFieldValue>
+            <valueName>Transaction history</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Member Account Status</controllingFieldValue>
+            <valueName>MBS Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Member Account Status</controllingFieldValue>
+            <valueName>Account Information (e.g. Balance, Contribution status)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Member Account Status</controllingFieldValue>
+            <valueName>Fund Choice Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Member Account Status</controllingFieldValue>
+            <valueName>Fund Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Notes / Statement / Report</controllingFieldValue>
+            <valueName>Contract Note</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Notes / Statement / Report</controllingFieldValue>
+            <valueName>Statement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Notes / Statement / Report</controllingFieldValue>
+            <valueName>Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Notes / Statement / Report</controllingFieldValue>
+            <valueName>Brochure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scheme Information</controllingFieldValue>
+            <valueName>Account Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scheme Information</controllingFieldValue>
+            <valueName>Account Balance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Assignment/ Beneficiary Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Face Amount Increase / Decrease</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Rider Addition / Deletion / Transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>IPO Changes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Autopay / Payment Mode/ Method Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Reinstatement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Other Changes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>FNA (DCC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>PC / Commission Charge Back (DCC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Regulatory Enquiry (DCC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Change to Non-Smoker Rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Rating / Exclusion Removal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Plan Change (within Cooling Off Period or NOT)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Premium Offset / Prepayment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Change</controllingFieldValue>
+            <valueName>Cover Me Again</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Reject Reason</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Refund Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Accumulator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Appeal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Return Receipt Status/ Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Shortfall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Regulatory Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Claims Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Pre-authorization request on Credit Facility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Clarify CPR / Email (DCC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Claims Eligibility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Request Return / Reissue Claims Document</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Surgical %</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Clarify Claims Amount / Appeal Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Member Termination</controllingFieldValue>
+            <valueName>Labour Department Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Member Termination</controllingFieldValue>
+            <valueName>Request AB Balance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plan Coverage</controllingFieldValue>
+            <valueName>Benefit Schedule Explanation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plan Coverage</controllingFieldValue>
+            <valueName>Resend Benefit Schedule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plan Coverage</controllingFieldValue>
+            <valueName>Surgical Schedule Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plan Coverage</controllingFieldValue>
+            <valueName>Panel - Benefit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plan Coverage</controllingFieldValue>
+            <valueName>Panel - Dr List</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panel Service</controllingFieldValue>
+            <valueName>Letter of Guarantee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panel Service</controllingFieldValue>
+            <valueName>Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panel Service</controllingFieldValue>
+            <valueName>Card Reissue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Member Transfer</controllingFieldValue>
+            <valueName>Internal Transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Renewal / Policy Change</controllingFieldValue>
+            <valueName>Billing ( Debit Note/ Change Summary)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Renewal / Policy Change</controllingFieldValue>
+            <valueName>Payment Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Renewal / Policy Change</controllingFieldValue>
+            <valueName>Freebie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Renewal / Policy Change</controllingFieldValue>
+            <valueName>Card issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Renewal / Policy Change</controllingFieldValue>
+            <valueName>From Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Renewal / Policy Change</controllingFieldValue>
+            <valueName>CDD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ManulifeMOVE</controllingFieldValue>
+            <valueName>Eligibility/Enrollment Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ManulifeMOVE</controllingFieldValue>
+            <valueName>MOVE Key enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ManulifeMOVE</controllingFieldValue>
+            <valueName>Application Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ManulifeMOVE</controllingFieldValue>
+            <valueName>Data Synchronization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ManulifeMOVE</controllingFieldValue>
+            <valueName>Premium Discount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ManulifeMOVE</controllingFieldValue>
+            <valueName>Appeal/Special Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ManulifeMOVE</controllingFieldValue>
+            <valueName>MOVE Key Resend</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ManulifeMOVE</controllingFieldValue>
+            <valueName>Device and Tracker Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ManulifeMOVE</controllingFieldValue>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Coverage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Policy Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Values / MVY deduction details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Payment Methods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Customer Statement (Policy Report, Pol. Illustration, Notice)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Product related ( Plan features, Benefit schedule, Provision, Doctor List, Fund info)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Contract / Endorsement Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Request for Brochure / Pamphlet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Exclusion / Rating (DCC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Autopay Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Reverse APL / APMC / Loan Repayment / Apply Premium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Loan Balance / History</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Autopay or Premium Status / History</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Details</controllingFieldValue>
+            <valueName>Signature / Beneficiary Information Checking</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

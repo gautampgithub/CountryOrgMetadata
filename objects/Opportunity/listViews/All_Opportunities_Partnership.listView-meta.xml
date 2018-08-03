@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Opportunities_Partnership</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.WAM</value>
+    </filters>
+    <label>All Opportunities (Partnership)</label>
+    <sharedTo>
+        <role>System_Administrator</role>
+        <roleAndSubordinatesInternal>WAM_Management</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Google_Batch_Processed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Only used by MilMoveSFGooglePushNotificationBatch and MilMoveSFApplePushNotificationBatch</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Only used by MilMoveSFGooglePushNotificationBatch and MilMoveSFApplePushNotificationBatch</inlineHelpText>
+    <label>Google Batch Processed</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

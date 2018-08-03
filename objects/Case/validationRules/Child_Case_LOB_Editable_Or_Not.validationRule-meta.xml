@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Child_Case_LOB_Editable_Or_Not</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR( 
+$Profile.Name = "CCC DCC Standard Team", 
+$Profile.Name = "CCC DCC VIP Team", 
+$Profile.Name = "Policy Administrator"
+), 
+OR( 
+RecordType.Name = "Inbound Child GLH Advisor", RecordType.Name = "Inbound Child GLH Customer", RecordType.Name = "Inbound Child GP Advisor", RecordType.Name = "Inbound Child GP Customer", RecordType.Name = "Inbound Child IFP Advisor", RecordType.Name = "Inbound Child IFP Customer", RecordType.Name = "Inbound Child WAM Customer" 
+), 
+ISCHANGED( LOB__c ), 
+OR( 
+NOT(ISNULL( Policy__c )) , PRIORVALUE(LOB__c) &lt;&gt; "" 
+) 
+)</errorConditionFormula>
+    <errorMessage>You are not allowed to take this action.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Policy_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Policy Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CRC</fullName>
+                <default>false</default>
+                <label>CRC</label>
+            </value>
+            <value>
+                <fullName>GI</fullName>
+                <default>false</default>
+                <label>GI</label>
+            </value>
+            <value>
+                <fullName>GLH</fullName>
+                <default>false</default>
+                <label>GLH</label>
+            </value>
+            <value>
+                <fullName>GP</fullName>
+                <default>false</default>
+                <label>GP</label>
+            </value>
+            <value>
+                <fullName>IND</fullName>
+                <default>false</default>
+                <label>IND</label>
+            </value>
+            <value>
+                <fullName>MAM</fullName>
+                <default>false</default>
+                <label>MAM</label>
+            </value>
+            <value>
+                <fullName>WM</fullName>
+                <default>false</default>
+                <label>WM</label>
+            </value>
+            <value>
+                <fullName>Credit Life Insurance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Credit Life Insurance</label>
+            </value>
+            <value>
+                <fullName>Interest Sensitive Whole Life</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Interest Sensitive Whole Life</label>
+            </value>
+            <value>
+                <fullName>Permanent Insurance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Permanent Insurance</label>
+            </value>
+            <value>
+                <fullName>Term Insurance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Term Insurance</label>
+            </value>
+            <value>
+                <fullName>Traditional Whole Life</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Traditional Whole Life</label>
+            </value>
+            <value>
+                <fullName>Variable Life</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Variable Life</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

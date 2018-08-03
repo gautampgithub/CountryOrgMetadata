@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Value_of_Transaction__c</fullName>
+    <externalId>false</externalId>
+    <label>Default Value of Transaction</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Post-sale Call</fullName>
+                <default>false</default>
+                <label>Post-sale Call</label>
+            </value>
+            <value>
+                <fullName>Customer Inbound Call</fullName>
+                <default>false</default>
+                <label>Customer Inbound Call</label>
+            </value>
+            <value>
+                <fullName>Advisor Inbound Call</fullName>
+                <default>false</default>
+                <label>Advisor Inbound Call</label>
+            </value>
+            <value>
+                <fullName>Re-assigned Customer Management</fullName>
+                <default>false</default>
+                <label>Re-assigned Customer Management</label>
+            </value>
+            <value>
+                <fullName>Orphan Program</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Orphan Program</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

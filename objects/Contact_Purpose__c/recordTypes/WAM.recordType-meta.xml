@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAM</fullName>
+    <active>true</active>
+    <description>WAM_Document_Record_Type</description>
+    <label>WAM</label>
+    <picklistValues>
+        <picklist>Contact_Method_Type__c</picklist>
+        <values>
+            <fullName>Address</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InPerson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WebPage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Purpose__c</picklist>
+        <values>
+            <fullName>Event Promotion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fund Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Document</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Market Information</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Role__c</picklist>
+        <values>
+            <fullName>Compliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales - Branch Managers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales - Branch RMs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales - District Managers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales - Investment Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Senior Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wealth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

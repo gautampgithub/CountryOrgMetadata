@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_New_Prospects__c</fullName>
+    <externalId>false</externalId>
+    <label>No. of New Prospects</label>
+    <summarizedField>Agent_Actual_Monthly__c.No_of_New_Prospects__c</summarizedField>
+    <summaryForeignKey>Agent_Actual_Monthly__c.Agent_Actual_Yearly__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

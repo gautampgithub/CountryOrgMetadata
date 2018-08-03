@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Users_to_Edit_Case_Detail</fullName>
+    <active>true</active>
+    <description>Restrict Other Users except Owner to Edit Case Details like case type, subtype, source, case description, case status, add case comment/ activity, if the case is open</description>
+    <errorConditionFormula>AND( ISPICKVAL( Status , "Open"), 
+OR(ISCHANGED( Type ), 
+ISCHANGED( Sub_Type__c ), 
+ISCHANGED( Status ), 
+ISCHANGED( Description )), 
+$User.Id &lt;&gt; OwnerId, 
+OR($Profile.Name = "CCC DCC Standard Team", 
+$Profile.Name = "CCC DCC VIP Team",$Profile.Name = "Policy Administrator"), 
+OR( RecordType.Name = "Inbound GLH Advisor", 
+RecordType.Name = "Inbound GLH Customer", 
+RecordType.Name = "Inbound GP Advisor", 
+RecordType.Name = "Inbound GP Customer", 
+RecordType.Name = "Inbound IFP Advisor", 
+RecordType.Name = "Inbound IFP Customer", 
+RecordType.Name = "Inbound WAM Advisor", 
+RecordType.Name = "Inbound WAM Customer") )</errorConditionFormula>
+    <errorMessage>You are not allowed to Edit</errorMessage>
+</ValidationRule>

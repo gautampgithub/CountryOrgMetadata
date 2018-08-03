@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ANS_Email_Trigger__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field will decide wheather email notification for post-sale cases will trigger or not</description>
+    <externalId>false</externalId>
+    <label>ANS Email Trigger</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

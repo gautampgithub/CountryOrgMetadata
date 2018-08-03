@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAM_HomePhoneFormat</fullName>
+    <active>true</active>
+    <description>WAMCRM : enforce correct format</description>
+    <errorConditionFormula>IF( 
+AND(RecordType.Name = $Setup.WAM_CustomSetting__c.Contact_Distributor_Record_Type_Label__c, !ISBLANK( HomePhone )), 
+	IF(OR(CONTAINS(HomePhone , "+"), CONTAINS(HomePhone , "("), CONTAINS(HomePhone , ")")),
+	  IF( LEFT(TRIM(HomePhone ), 1) == "+", 
+	      IF(!CONTAINS(HomePhone , "(") || !CONTAINS(HomePhone , ")"), TRUE, FALSE),
+		  IF(LEFT(TRIM(HomePhone ), 1) &lt;&gt; "+", TRUE, FALSE)
+	   ),
+	FALSE),  		
+FALSE)</errorConditionFormula>
+    <errorDisplayField>HomePhone</errorDisplayField>
+    <errorMessage>Please enter valid International Number</errorMessage>
+</ValidationRule>

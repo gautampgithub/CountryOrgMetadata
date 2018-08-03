@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Users_From_Updating_Case_Detail</fullName>
+    <active>true</active>
+    <description>This rule will trigger to stop Users from Updating Case details once it is created.</description>
+    <errorConditionFormula>AND(  OR(ISCHANGED( AccountId ),  
+         ISCHANGED(  Type )),  
+         OR($Profile.Name  = "CCC CSO User",$Profile.Name  = "Restricted CCC CSO User"),
+         OR( RecordType.Name  = "Orphan Permissive",
+         RecordType.Name  = "Orphan Restrictive",
+         RecordType.Name  = "Post Sales Permissive",
+         RecordType.Name  = "Post Sales Restrictive") )</errorConditionFormula>
+    <errorMessage>You are not allowed to Update case details once it is created.</errorMessage>
+</ValidationRule>

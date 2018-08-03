@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Case_Check_Rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+PRIORVALUE(IsClosed), 
+OR(
+$Profile.Name = "CCC DCC Standard Team", 
+$Profile.Name = "CCC DCC VIP Team",
+$Profile.Name = "Policy Administrator"), 
+OR( 
+RecordType.Name = "Inbound GLH Advisor", 
+RecordType.Name = "Inbound GLH Customer", 
+RecordType.Name = "Inbound GP Advisor",
+RecordType.Name = "Inbound GP Customer",
+RecordType.Name = "Inbound IFP Advisor",
+RecordType.Name = "Inbound IFP Customer",
+RecordType.Name = "Inbound WAM Advisor", 
+RecordType.Name = "Inbound WAM Customer",
+RecordType.Name = "Inbound Closed Case", 
+RecordType.Name = "Inbound Child GLH Advisor", RecordType.Name = "Inbound Child GLH Customer", RecordType.Name = "Inbound Child GP Advisor", RecordType.Name = "Inbound Child GP Customer", RecordType.Name = "Inbound Child IFP Advisor", RecordType.Name = "Inbound Child IFP Customer", RecordType.Name = "Inbound Child WAM Customer",
+RecordType.Name = "Inbound Child Closed Case"
+ )
+)</errorConditionFormula>
+    <errorMessage>You are not Allowed to change Status</errorMessage>
+</ValidationRule>

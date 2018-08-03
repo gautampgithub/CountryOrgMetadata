@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ANS_Email_Subject__c</fullName>
+    <description>This field contains the subject line for workflow rule</description>
+    <encrypted>false</encrypted>
+    <externalId>false</externalId>
+    <label>ANS_Email_Subject</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

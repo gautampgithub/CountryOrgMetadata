@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GP_Admin_Change_Enquiry</fullName>
+    <description>GP_Admin &amp; Change Enquiry</description>
+    <displayedFields>
+        <field>Description</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>GP_Admin &amp; Change Enquiry</label>
+</FieldSet>

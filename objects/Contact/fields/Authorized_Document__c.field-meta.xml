@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Authorized_Document__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>WAMCRM : Authorized Document</description>
+    <externalId>false</externalId>
+    <inlineHelpText>WAMCRM : Authorized Document</inlineHelpText>
+    <label>Other Legal Document</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

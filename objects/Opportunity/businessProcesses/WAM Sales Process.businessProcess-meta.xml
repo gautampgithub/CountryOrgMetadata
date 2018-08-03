@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAM Sales Process</fullName>
+    <description>WAMCRM: Sales process to allow record type</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Distribution Agreement</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Due Diligence</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Initial Meeting</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Operation Setup</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Product Pitch</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Product Training</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>RFI</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Senior Management Meeting</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

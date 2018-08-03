@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Cases_As_a_creator</fullName>
+    <booleanFilter>1 AND (2 OR 3 OR 4 OR 5 OR 6 OR 7)</booleanFilter>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SOURCE</columns>
+    <columns>Policy_Number__c</columns>
+    <columns>ENTITLEMENT.END_DATE</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.TYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Inbound_Child_GLH_Customer,Case.Inbound_Child_GP_Customer,Case.Inbound_Child_IFP_Customer,Case.Inbound_Child_WAM_Customer</value>
+    </filters>
+    <filters>
+        <field>cct_Case_Team__c</field>
+        <operation>equals</operation>
+        <value>CCC EB</value>
+    </filters>
+    <filters>
+        <field>cct_Case_Team__c</field>
+        <operation>equals</operation>
+        <value>CCC IFP</value>
+    </filters>
+    <filters>
+        <field>cct_Case_Team__c</field>
+        <operation>equals</operation>
+        <value>DCC EB Counter Manager</value>
+    </filters>
+    <filters>
+        <field>cct_Case_Team__c</field>
+        <operation>equals</operation>
+        <value>DCC EB Hotline Manager</value>
+    </filters>
+    <filters>
+        <field>cct_Case_Team__c</field>
+        <operation>equals</operation>
+        <value>DCC IFP Counter Manager</value>
+    </filters>
+    <filters>
+        <field>cct_Case_Team__c</field>
+        <operation>equals</operation>
+        <value>DCC IFP Hotline Manager</value>
+    </filters>
+    <label>All Cases- As a creator</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>CCC</role>
+        <role>CCC_EB</role>
+        <role>CCC_EB_CSO</role>
+        <role>CCC_EB_Manager</role>
+        <role>CCC_EB_PC</role>
+        <role>CCC_EB_Senior_CSO</role>
+        <role>CCC_IFP</role>
+        <role>CCC_IFP_CSO</role>
+        <role>CCC_IFP_Manager</role>
+        <role>CCC_IFP_PC</role>
+        <role>CCC_IFP_Senior_CSO</role>
+        <role>DCC</role>
+        <role>DCC_EB</role>
+        <role>DCC_EB_Counter_CSO</role>
+        <role>DCC_EB_Counter_Manager</role>
+        <role>DCC_EB_Counter_PC</role>
+        <role>DCC_EB_Hotline_CSO</role>
+        <role>DCC_EB_Hotline_Manager</role>
+        <role>DCC_EB_Hotline_PC</role>
+        <role>DCC_IFP</role>
+        <role>DCC_IFP_Counter_CSO</role>
+        <role>DCC_IFP_Counter_Manager</role>
+        <role>DCC_IFP_Counter_PC</role>
+        <role>DCC_IFP_Hotline_CSO</role>
+        <role>DCC_IFP_Hotline_Manager</role>
+        <role>DCC_IFP_Hotline_PC</role>
+        <role>EB_Administrator</role>
+        <role>IFP_Administrator</role>
+        <role>WAM_Administrator</role>
+    </sharedTo>
+</ListView>

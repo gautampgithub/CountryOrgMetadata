@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open</fullName>
+    <columns>NAME</columns>
+    <columns>Language__c</columns>
+    <columns>ZH_lang__c</columns>
+    <columns>En_lang__c</columns>
+    <columns>Type__c</columns>
+    <columns>SubType__c</columns>
+    <columns>Issue_Month__c</columns>
+    <columns>Issue_Year__c</columns>
+    <columns>Neighbour_Issue_Set_Group__c</columns>
+    <columns>No_of_Active_Issues__c</columns>
+    <columns>Parent_Issue_Set__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <label>Open</label>
+</ListView>

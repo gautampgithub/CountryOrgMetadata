@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Company_Distributor__c</fullName>
+    <description>WAMCRM: Define whether this is Group Company, or Distributor</description>
+    <externalId>false</externalId>
+    <inlineHelpText>is Group Company, Company, or Distributor Account?
+Example of Group Company:
+- Bank of China
+
+Example of Company:
+- Bank of China (HK) Limited
+
+Example of Distributor
+- Bank of China (HK) Limited AC1
+- Bank of China (Hong Kong) Limited / AC2</inlineHelpText>
+    <label>Hierarchy level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GroupCompany</fullName>
+                <default>false</default>
+                <label>GroupCompany</label>
+            </value>
+            <value>
+                <fullName>Company</fullName>
+                <default>true</default>
+                <label>Company</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

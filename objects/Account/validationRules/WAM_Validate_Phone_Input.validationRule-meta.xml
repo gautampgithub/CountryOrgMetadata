@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAM_Validate_Phone_Input</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( 
+AND(RecordType.Name =  $Setup.WAM_CustomSetting__c.Account_Distributor_Record_Type_Label__c, !ISBLANK(Phone)), 
+	IF(OR(CONTAINS(Phone, "+"), CONTAINS(Phone, "("), CONTAINS(Phone, ")")),
+	  IF( LEFT(TRIM(Phone), 1) == "+", 
+	      IF(!CONTAINS(Phone, "(") || !CONTAINS(Phone, ")"), TRUE, FALSE),
+		  IF(LEFT(TRIM(Phone), 1) &lt;&gt; "+", TRUE, FALSE)
+	   ),
+	FALSE),  		
+FALSE)</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>Please enter valid International Number</errorMessage>
+</ValidationRule>

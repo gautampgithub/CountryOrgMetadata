@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IssueSet_Open</fullName>
+    <active>true</active>
+    <label>IssueSet_Open</label>
+    <picklistValues>
+        <picklist>Issue_Month__c</picklist>
+        <values>
+            <fullName>April</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>August</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>December</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>February</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>January</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>July</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>June</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>March</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>May</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>November</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>October</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>September</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Issue_Year__c</picklist>
+        <values>
+            <fullName>2002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2004</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2005</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2006</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2015</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2016</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2017</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2022</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Language__c</picklist>
+        <values>
+            <fullName>Bilingual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZH</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MPF_Fund_Type_Chinese__c</picklist>
+        <values>
+            <fullName>---------------- 全面計劃 ----------------</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>---------------- 基本計劃 ----------------</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100 宏利在職平均回報保證基金 - 基本</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>101 宏利債券基金 - 基本</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>105 宏利強積金保守基金 - 基本</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>110 宏利增長基金 - 基本</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>115 宏利平衡基金 - 基本</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>120 宏利穩定基金 - 基本</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>125 宏利在職平均回報保證基金 - 全面</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>126 宏利穩定基金 - 全面</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>127 宏利平衡基金 - 全面</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>128 宏利增長基金 - 全面</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>129 宏利債券基金 - 全面</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>130 宏利強積金保守基金 - 全面</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>135 信安香港股票基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>140 安聯精選增長基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>145 富達環球投資基金 - 增長基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>150 匯豐強積金%22A%22系列 - 中港股票基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>155 景順環球股票基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>165 施羅德強積金亞洲基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>170 鄧普頓強積金亞洲均衡基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>180 安聯精選均衡基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>185 富達環球投資基金 - 均衡基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>190 匯豐強積金%22A%22系列 - 均衡基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>195 景順環球均衡基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>210 施羅德強積金均衡基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>215 鄧普頓強積金環球股票基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>225 安聯精選穩定資本基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>230 富達環球投資基金 - 資本穩定基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>235 匯豐強積金%22A%22系列 - 平穩基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>250 景順強積金債券基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>260 施羅德人民幣及港元定息基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>265 鄧普頓強積金環球債券基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>宏利強積金 65 歲後基金 - 全面</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>宏利強積金 65 歲後基金 - 基本</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>宏利強積金核心累積基金 - 全面</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>宏利強積金核心累積基金 - 基本</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>宏利強積金計劃 - 全面 基金便覽合併版</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>宏利強積金計劃 - 基本 基金便覽合併版</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MPF_Fund_Type_English__c</picklist>
+        <values>
+            <fullName>----------- Advanced Plan -----------</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>-------------- Basic Plan --------------</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100 Manulife Career Average Guaranteed Fund - Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>101 Manulife Bond Fund - Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>105 Manulife MPF Conservative  Fund - Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>110 Manulife Growth Fund - Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>115 Manulife Balanced Fund - Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>120 Manulife Stable Fund - Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>125 Manulife Career Average Guaranteed Fund - Advanced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>126 Manulife Stable Fund - Advanced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>127 Manulife Balanced Fund - Advanced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>128 Manulife Growth Fund - Advanced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>129 Manulife Bond Fund - Advanced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>130 Manulife MPF Conservative Fund - Advanced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>135 Principal Hong Kong Equity Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>140 Allianz Choice Growth Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>145 Fidelity Global Investment Fund - Growth Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>150 HSBC MPF %22A%22 - Hong Kong and Chinese Equity Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>155 Invesco Global Equities Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>165 Schroder MPF Asian Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>170 Templeton MPF Asian Balanced Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>180 Allianz Choice Balanced Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>185 Fidelity Global Investment Fund - Balanced Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>190 HSBC MPF %22A%22 - Balanced Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>195 Invesco Global Balanced Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>210 Schroder MPF Balanced Investment Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>215 Templeton MPF Global Equity Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>225 Allianz Choice Capital Stable Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>230 Fidelity Global Investment Fund - Capital Stable Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>235 HSBC MPF %22A%22 - Stable Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>250 Invesco MPF Bond Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>260 Schroder RMB and HKD Fixed Income Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>265 Templeton MPF Global Bond Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consolidated Fund Fact Sheet for Manulife MPF - Advanced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consolidated Fund Fact Sheet for Manulife MPF - Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manulife MPF Age 65 Plus Funds - Advanced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manulife MPF Age 65 Plus Funds - Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manulife MPF Core Accumulation Funds - Advanced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manulife MPF Core Accumulation Funds - Basic</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ORSO_Fund_Type_Chinese__c</picklist>
+        <values>
+            <fullName>500 安聯精選增長基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>510 霸菱國際債券基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>516 施羅德環球債券基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>520 施羅德金融市場基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>525 施羅德美元金融基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>530 安聯小龍基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>536 施羅德環球亞洲優勢基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>540 匯豐增長管理基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>545 施羅德組合投資基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>550 安聯精選均衡基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>555 霸菱傾亞均衡基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>560 鄧普頓環球均衡增長基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>565 施羅德平穩增長基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>570 匯豐香港股票基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>575 Morgan Stanley Investment Funds 美國增長基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>580 貝萊德歐洲基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>585 安聯日本股票基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>591 宏利穩定基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>592 宏利平衡基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>593 宏利增長基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>596 摩根宜安國際債券基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>597 富達國際債券基金</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>598 施羅德港元債券基金</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ORSO_Fund_Type_English__c</picklist>
+        <values>
+            <fullName>500 Allianz Choice Growth Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>510 Baring International Bond Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>516 Schroder International Selection Fund - Global Bond</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>520 Schroder HK Money Market Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>525 Schroder US Dollar Money Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>530 Allianz Little Dragons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>536 Schroder International Selection Fund - Asian Opportunities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>540 HSBC Managed Growth Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>545 Schroder Balanced Investment Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>550 Allianz Choice Balanced Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>555 Baring Asia Balanced Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>560 Templeton Global Balanced Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>565 Schroder Stable Growth Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>570 HSBC Hong Kong Equity Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>575 Morgan Stanley Investment Funds US Growth Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>580 BlackRock Global Funds - European Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>585 Allianz Japan Equity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>591 Manulife Stable Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>592 Manulife Balanced Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>593 Manulife Growth Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>596 JPMorgan SAR Global Bond Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>597 Fidelity Funds - International Bond Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>598 Schroder International Selection Fund - Hong Kong Dollar Bond</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Archived</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SubType__c</picklist>
+        <values>
+            <fullName>Fund Fact Sheets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly Summary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>MPF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ORSO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

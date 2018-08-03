@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAM_validate_report_date</fullName>
+    <active>false</active>
+    <description>WAMCRM : Report data cannot be future</description>
+    <errorConditionFormula>if ( Report_Date__c &gt; TODAY(), TRUE, FALSE )</errorConditionFormula>
+    <errorDisplayField>Report_Date__c</errorDisplayField>
+    <errorMessage>Report Date cannot be future date</errorMessage>
+</ValidationRule>

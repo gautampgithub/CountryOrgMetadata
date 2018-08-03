@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Task_Record_Type__c</fullName>
+    <description>WAMCRM : Task Record Type to manage distributors</description>
+    <encrypted>false</encrypted>
+    <externalId>false</externalId>
+    <inlineHelpText>WAMCRM : Task Record Type to manage distributors</inlineHelpText>
+    <label>Task Record Type</label>
+    <length>100</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAM_TA_Reference__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>WAMCRM: Lookup for TA Reference</description>
+    <externalId>false</externalId>
+    <inlineHelpText>WAMCRM: This account is referring to TA&#39;s Company of?</inlineHelpText>
+    <label>WAM TA Reference</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.Group_Company_Distributor__c</field>
+            <operation>equals</operation>
+            <valueField>WAM_TA_Reference__c.Level_Indicator__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>WAM_TA_Reference__c</referenceTo>
+    <relationshipLabel>Accounts</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

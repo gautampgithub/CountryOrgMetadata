@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ORSO_Fund_Type_Chinese__c</fullName>
+    <externalId>false</externalId>
+    <label>ORSO Fund Type Chinese</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>500 安聯精選增長基金</fullName>
+                <default>false</default>
+                <label>500 安聯精選增長基金</label>
+            </value>
+            <value>
+                <fullName>510 霸菱國際債券基金</fullName>
+                <default>false</default>
+                <label>510 霸菱國際債券基金</label>
+            </value>
+            <value>
+                <fullName>516 施羅德環球債券基金</fullName>
+                <default>false</default>
+                <label>516 施羅德環球債券基金</label>
+            </value>
+            <value>
+                <fullName>520 施羅德金融市場基金</fullName>
+                <default>false</default>
+                <label>520 施羅德金融市場基金</label>
+            </value>
+            <value>
+                <fullName>525 施羅德美元金融基金</fullName>
+                <default>false</default>
+                <label>525 施羅德美元金融基金</label>
+            </value>
+            <value>
+                <fullName>530 安聯小龍基金</fullName>
+                <default>false</default>
+                <label>530 安聯小龍基金</label>
+            </value>
+            <value>
+                <fullName>536 施羅德環球亞洲優勢基金</fullName>
+                <default>false</default>
+                <label>536 施羅德環球亞洲優勢基金</label>
+            </value>
+            <value>
+                <fullName>540 匯豐增長管理基金</fullName>
+                <default>false</default>
+                <label>540 匯豐增長管理基金</label>
+            </value>
+            <value>
+                <fullName>545 施羅德組合投資基金</fullName>
+                <default>false</default>
+                <label>545 施羅德組合投資基金</label>
+            </value>
+            <value>
+                <fullName>550 安聯精選均衡基金</fullName>
+                <default>false</default>
+                <label>550 安聯精選均衡基金</label>
+            </value>
+            <value>
+                <fullName>555 霸菱傾亞均衡基金</fullName>
+                <default>false</default>
+                <label>555 霸菱傾亞均衡基金</label>
+            </value>
+            <value>
+                <fullName>560 鄧普頓環球均衡增長基金</fullName>
+                <default>false</default>
+                <label>560 鄧普頓環球均衡增長基金</label>
+            </value>
+            <value>
+                <fullName>565 施羅德平穩增長基金</fullName>
+                <default>false</default>
+                <label>565 施羅德平穩增長基金</label>
+            </value>
+            <value>
+                <fullName>570 匯豐香港股票基金</fullName>
+                <default>false</default>
+                <label>570 匯豐香港股票基金</label>
+            </value>
+            <value>
+                <fullName>575 Morgan Stanley Investment Funds 美國增長基金</fullName>
+                <default>false</default>
+                <label>575 Morgan Stanley Investment Funds 美國增長基金</label>
+            </value>
+            <value>
+                <fullName>580 貝萊德歐洲基金</fullName>
+                <default>false</default>
+                <label>580 貝萊德歐洲基金</label>
+            </value>
+            <value>
+                <fullName>585 安聯日本股票基金</fullName>
+                <default>false</default>
+                <label>585 安聯日本股票基金</label>
+            </value>
+            <value>
+                <fullName>591 宏利穩定基金</fullName>
+                <default>false</default>
+                <label>591 宏利穩定基金</label>
+            </value>
+            <value>
+                <fullName>592 宏利平衡基金</fullName>
+                <default>false</default>
+                <label>592 宏利平衡基金</label>
+            </value>
+            <value>
+                <fullName>593 宏利增長基金</fullName>
+                <default>false</default>
+                <label>593 宏利增長基金</label>
+            </value>
+            <value>
+                <fullName>596 摩根宜安國際債券基金</fullName>
+                <default>false</default>
+                <label>596 摩根宜安國際債券基金</label>
+            </value>
+            <value>
+                <fullName>597 富達國際債券基金</fullName>
+                <default>false</default>
+                <label>597 富達國際債券基金</label>
+            </value>
+            <value>
+                <fullName>598 施羅德港元債券基金</fullName>
+                <default>false</default>
+                <label>598 施羅德港元債券基金</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

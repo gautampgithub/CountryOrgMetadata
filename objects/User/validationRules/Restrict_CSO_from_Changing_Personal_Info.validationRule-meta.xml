@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_CSO_from_Changing_Personal_Info</fullName>
+    <active>true</active>
+    <description>Sprint 1 CTP-99
+As a Outbound Supervisor / Manager / CSO, If I make the change on any fields in Personal Information of Settings page, an error message "You are not allowed to take this action." will be displayed upon saving</description>
+    <errorConditionFormula>$Profile.Name  = "CCC CSO User" || $Profile.Name  = "Restricted CCC CSO User" || $Profile.Name = "CCC DCC VIP Team" || $Profile.Name = "CCC DCC Standard Team" || $Profile.Name = "Policy Administrator"</errorConditionFormula>
+    <errorMessage>You are not allowed to take this action.</errorMessage>
+</ValidationRule>

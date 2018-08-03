@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAM_validate_custom_date_of_birth</fullName>
+    <active>true</active>
+    <description>Support WAM custom date of birth validation</description>
+    <errorConditionFormula>IF(  AND(RecordType.Name = $Setup.WAM_CustomSetting__c.Contact_Distributor_Record_Type_Label__c, !ISBLANK(Birthday_MM_DD__c) ), 
+
+AND (
+  NOT ( AND (
+    REGEX(Birthday_MM_DD__c, "[0-9]{2}/[0-9]{2}"),
+    LEN(Birthday_MM_DD__c) = 5
+  )),
+  NOT ( LEN(Birthday_MM_DD__c) = 10 )
+)
+,FALSE)</errorConditionFormula>
+    <errorDisplayField>Birthday_MM_DD__c</errorDisplayField>
+    <errorMessage>Please enter birthday in correct format</errorMessage>
+</ValidationRule>

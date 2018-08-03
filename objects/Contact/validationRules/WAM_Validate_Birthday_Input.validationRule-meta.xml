@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAM_Validate_Birthday_Input</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(AND(RecordType.Name = $Setup.WAM_CustomSetting__c.Contact_Distributor_Record_Type_Label__c, !ISBLANK(Birthday_MM_DD__c)) , 
+IF (
+  OR (
+    VALUE( MID(Birthday_MM_DD__c, 1, 2) ) &gt; 12,
+	VALUE( MID(Birthday_MM_DD__c, 4, 2) ) &gt; 31
+  ),
+  true,
+  IF (
+    MID(Birthday_MM_DD__c, 1, 2) = "02", 
+    IF (
+  	  AND (LEN (Birthday_MM_DD__c) = 10, NOT (MID(Birthday_MM_DD__c, 7, 4) = "1900")),
+	  IF (
+	    MOD(VALUE(MID(Birthday_MM_DD__c, 7, 4)), 4) = 0,
+	    IF (
+		  OR (
+		    MID(Birthday_MM_DD__c, 4, 2) = "31",
+		    MID(Birthday_MM_DD__c, 4, 2) = "30"
+		  ),
+		  true,
+		  false
+	    ),
+	    IF (
+		  OR (
+		    MID(Birthday_MM_DD__c, 4, 2) = "31",
+		    MID(Birthday_MM_DD__c, 4, 2) = "30",
+		    MID(Birthday_MM_DD__c, 4, 2) = "29"
+		  ),
+		  true,
+		  false
+	    )
+	  ),
+	  IF (
+	    OR (
+		  MID(Birthday_MM_DD__c, 4, 2) = "31",
+		  MID(Birthday_MM_DD__c, 4, 2) = "30",
+		  MID(Birthday_MM_DD__c, 4, 2) = "29"
+	    ),
+	    true,
+	    false
+	  )
+    ),
+    IF (
+	  OR (
+	    MID(Birthday_MM_DD__c, 1, 2) = "04",
+	    MID(Birthday_MM_DD__c, 1, 2) = "06",
+	    MID(Birthday_MM_DD__c, 1, 2) = "09",
+	    MID(Birthday_MM_DD__c, 1, 2) = "11"
+	  ),
+	  IF (
+	    MID(Birthday_MM_DD__c, 4, 2) = "31",
+	    true,
+	    false
+	  ),
+	  false
+    )
+  )
+)
+,FALSE)</errorConditionFormula>
+    <errorDisplayField>Birthday_MM_DD__c</errorDisplayField>
+    <errorMessage>Invalid Date Format</errorMessage>
+</ValidationRule>

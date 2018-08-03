@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inactive__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>WAMCRM : specify whether Contact is no longer valid and left the company.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Is this contact still with the company?
+E.g. &#39;checked&#39; mean left company
+
+Note: Inactive contacts will not appear on lookup search results.</inlineHelpText>
+    <label>Inactive</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

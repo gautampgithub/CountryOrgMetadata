@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Record_Date__c</columns>
+    <columns>Cases_Closed__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Cases_Opened__c</columns>
+    <columns>Cases_Opened_App__c</columns>
+    <columns>Cases_Opened_Total__c</columns>
+    <columns>Closing_Interviews__c</columns>
+    <columns>Closing_Interviews_App__c</columns>
+    <columns>Closing_Interviews_Total__c</columns>
+    <columns>No_of_New_Leads__c</columns>
+    <columns>No_of_New_Prospects__c</columns>
+    <columns>Production_Count__c</columns>
+    <columns>Record_External_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

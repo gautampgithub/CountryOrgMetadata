@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IFP_Advisor_Change_Compensation_Regulato</fullName>
+    <description>IFP_Advisor Change/Compensation/ Regulatory</description>
+    <displayedFields>
+        <field>Description</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>IFP_Advisor Change/Compensation/ Regulatory</label>
+</FieldSet>

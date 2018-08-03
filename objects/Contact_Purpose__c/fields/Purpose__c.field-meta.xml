@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Purpose__c</fullName>
+    <externalId>false</externalId>
+    <label>Contact Purpose</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fund Information</fullName>
+                <default>false</default>
+                <label>Fund Information</label>
+            </value>
+            <value>
+                <fullName>Market Information</fullName>
+                <default>false</default>
+                <label>Market Information</label>
+            </value>
+            <value>
+                <fullName>Event Promotion</fullName>
+                <default>false</default>
+                <label>Event Promotion</label>
+            </value>
+            <value>
+                <fullName>Legal Document</fullName>
+                <default>false</default>
+                <label>Legal Document</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
